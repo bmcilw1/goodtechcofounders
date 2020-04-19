@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
-import github from "../img/github-icon.svg";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = class extends React.Component {
   render() {
@@ -67,23 +67,15 @@ const Footer = class extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={github}
-                    alt="Github"
-                    style={{ width: "1em", height: "1em" }}
-                  />
+                  <FaGithub />
                 </a>
                 <a
-                  title="facebook"
-                  href="https://facebook.com"
+                  title="LinkedIn"
+                  href="https://www.linkedin.com/in/brian-mcilwain/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
+                  <FaLinkedin />
                 </a>
               </div>
             </div>

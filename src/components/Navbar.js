@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
+import { FaLinkedin } from "react-icons/fa";
 import logo from "../img/logo.svg";
 
 const Navbar = class extends React.Component {
@@ -76,13 +76,12 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                title="LinkedIn"
+                href="https://www.linkedin.com/in/brian-mcilwain/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
+                <FaLinkedin />
               </a>
             </div>
           </div>
