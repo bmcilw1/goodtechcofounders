@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "GoodTechCoFounders",
-    description: "Helping you find and train good technical co-founders.",
+    description:
+      "Helping you find good technical co-founders. Helping you become a better technical co-founder.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
