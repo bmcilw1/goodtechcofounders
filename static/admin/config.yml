@@ -12,6 +12,8 @@ media_folder: static/img
 public_folder: /img
 site_url: https://goodtechcofounders.com
 display_url: goodtechcofounders.com
+publish_mode: editorial_workflow
+logo_url: https://goodtechcofounders.com/img/logo.svg
 
 collections:
   - name: "articles"
