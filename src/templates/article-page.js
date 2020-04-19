@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const ArticleTemplate = ({
+export const ArticlePageTemplate = ({
   content,
   contentComponent,
   description,
@@ -46,7 +46,7 @@ export const ArticleTemplate = ({
   )
 }
 
-ArticleTemplate.propTypes = {
+ArticlePageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -59,7 +59,7 @@ const Article = ({ data }) => {
 
   return (
     <Layout>
-      <ArticleTemplate
+      <ArticlePageTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}

@@ -1,5 +1,5 @@
 ---
-templateKey: article
+templateKey: article-page
 title: Test article
 date: 2020-04-19T02:03:15.336Z
 description: asdf

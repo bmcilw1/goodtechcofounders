@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ArticleTemplate } from '../../templates/article'
+import { ArticlePageTemplate } from '../../templates/article-page'
 
 const ArticlePagePreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags'])
   return (
-    <ArticleTemplate
+    <ArticlePageTemplate
       content={widgetFor('body')}
       description={entry.getIn(['data', 'description'])}
       tags={tags && tags.toJS()}

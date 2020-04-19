@@ -72,7 +72,7 @@ export default () => (
       query ArticlesRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "article" } } }
+          filter: { frontmatter: { templateKey: { eq: "article-page" } } }
         ) {
           edges {
             node {
