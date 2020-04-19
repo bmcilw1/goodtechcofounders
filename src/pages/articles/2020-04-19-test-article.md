@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: article
 title: Test article
 date: 2020-04-19T02:03:15.336Z
 description: asdf
