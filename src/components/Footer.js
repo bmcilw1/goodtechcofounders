@@ -66,6 +66,7 @@ const Footer = class extends React.Component {
                   href="https://github.com/bmcilw1/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="icon" 
                 >
                   <FaGithub />
                 </a>
@@ -74,6 +75,7 @@ const Footer = class extends React.Component {
                   href="https://www.linkedin.com/in/brian-mcilwain/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="icon" 
                 >
                   <FaLinkedin />
                 </a>

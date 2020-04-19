@@ -81,7 +81,9 @@ const Navbar = class extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin />
+                <span className="icon">
+                  <FaLinkedin />
+                </span>
               </a>
             </div>
           </div>
