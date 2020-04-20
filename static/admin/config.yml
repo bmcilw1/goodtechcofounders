@@ -137,4 +137,14 @@ collections:
               default: "about-page",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: aboutImage,
+              name: aboutImage,
+              widget: object,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Alt, name: alt, widget: string },
+                ],
+            }
           - { label: "Body", name: "body", widget: "markdown" }
