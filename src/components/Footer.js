@@ -61,23 +61,25 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column is-4">
                 <a
                   href="https://github.com/bmcilw1/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon" 
                 >
-                  <FaGithub />
+                  <span className="icon">
+                    <FaGithub />
+                  </span>
                 </a>
                 <a
                   title="LinkedIn"
                   href="https://www.linkedin.com/in/brian-mcilwain/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon" 
                 >
-                  <FaLinkedin />
+                  <span className="icon">
+                    <FaLinkedin />
+                  </span>
                 </a>
               </div>
             </div>
