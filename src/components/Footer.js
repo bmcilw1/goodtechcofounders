@@ -19,43 +19,29 @@ const Footer = class extends React.Component {
         <div className="has-text-centered">
           <div className="container">
             <section className="menu columns">
-              <div className="column">
-                <ul className="menu-list">
-                  <li>
-                    <Link to="/" className="navbar-item">
-                      Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="navbar-item" to="/about">
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <a
-                      className="navbar-item"
-                      href="/admin/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Admin
-                    </a>
-                  </li>
-                </ul>
+              <div className="column menu-list">
+                <Link to="/" className="navbar-item menu-label">
+                  Home
+                </Link>
+                <Link className="navbar-item menu-label" to="/about">
+                  About
+                </Link>
+                <a
+                  className="navbar-item menu-label"
+                  href="/admin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Admin
+                </a>
               </div>
-              <div className="column">
-                <ul className="menu-list">
-                  <li>
-                    <Link className="navbar-item" to="/articles">
-                      Articles
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="navbar-item" to="/contact">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
+              <div className="column menu-list">
+                <Link className="navbar-item menu-label" to="/articles">
+                  Articles
+                </Link>
+                <Link className="navbar-item" to="/contact">
+                  Contact
+                </Link>
               </div>
               <div className="column">
                 <a
