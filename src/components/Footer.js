@@ -18,7 +18,7 @@ const Footer = class extends React.Component {
         </div>
         <div className="has-text-centered">
           <div className="container">
-            <section className="menu columns">
+            <section className="columns">
               <div className="column menu-list">
                 <Link to="/" className="navbar-item">
                   Home
