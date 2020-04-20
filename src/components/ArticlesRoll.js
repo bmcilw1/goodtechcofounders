@@ -18,9 +18,9 @@ class ArticlesRoll extends React.Component {
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
-                <header>
+                <header className="columns">
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div className="featured-thumbnail column is-one-third">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -29,7 +29,7 @@ class ArticlesRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
+                  <p className="post-meta column">
                     <Link
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
