@@ -19,7 +19,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div className="columns">
-              <div className="column is-4">
+              <div className="column">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -45,7 +45,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4">
+              <div className="column">
                 <section>
                   <ul className="menu-list">
                     <li>
@@ -61,7 +61,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4">
+              <div className="column">
                 <a
                   href="https://github.com/bmcilw1/"
                   target="_blank"
