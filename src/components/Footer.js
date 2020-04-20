@@ -20,14 +20,14 @@ const Footer = class extends React.Component {
           <div className="container">
             <section className="menu columns">
               <div className="column menu-list">
-                <Link to="/" className="navbar-item menu-label">
+                <Link to="/" className="navbar-item">
                   Home
                 </Link>
-                <Link className="navbar-item menu-label" to="/about">
+                <Link className="navbar-item" to="/about">
                   About
                 </Link>
                 <a
-                  className="navbar-item menu-label"
+                  className="navbar-item"
                   href="/admin/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const Footer = class extends React.Component {
                 </a>
               </div>
               <div className="column menu-list">
-                <Link className="navbar-item menu-label" to="/articles">
+                <Link className="navbar-item" to="/articles">
                   Articles
                 </Link>
                 <Link className="navbar-item" to="/contact">
