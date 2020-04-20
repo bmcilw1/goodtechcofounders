@@ -5,8 +5,12 @@ module.exports = {
       "Helping you find good technical co-founders. Helping you become a better technical co-founder.",
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-plugin-react-helmet",
+    },
+    {
+      resolve: "gatsby-plugin-sass",
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -29,8 +33,12 @@ module.exports = {
         name: "images",
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-sharp",
+    },
+    {
+      resolve: "gatsby-transformer-sharp",
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -72,6 +80,9 @@ module.exports = {
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
+    // make sure to keep it last in the array
+    {
+      resolve: "gatsby-plugin-netlify",
+    },
   ],
 };
