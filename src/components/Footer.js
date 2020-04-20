@@ -18,48 +18,44 @@ const Footer = class extends React.Component {
         </div>
         <div className="has-text-centered">
           <div className="container">
-            <div className="columns">
+            <section className="menu columns">
               <div className="column">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
+                <ul className="menu-list">
+                  <li>
+                    <Link to="/" className="navbar-item">
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/about">
+                      About
+                    </Link>
+                  </li>
+                  <li>
+                    <a
+                      className="navbar-item"
+                      href="/admin/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Admin
+                    </a>
+                  </li>
+                </ul>
               </div>
               <div className="column">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/articles">
-                        Articles
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
+                <ul className="menu-list">
+                  <li>
+                    <Link className="navbar-item" to="/articles">
+                      Articles
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/contact">
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
               </div>
               <div className="column">
                 <a
@@ -82,7 +78,7 @@ const Footer = class extends React.Component {
                   </span>
                 </a>
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </footer>
