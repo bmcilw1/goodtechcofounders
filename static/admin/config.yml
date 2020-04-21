@@ -149,10 +149,10 @@ collections:
             }
           - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "config"
-    label: "Configuration"
+  - name: "configs"
+    label: "Configurations"
     files:
-      - file: "src/config/navigation.md"
+      - file: "src/configs/navigation.md"
         label: "Navigation"
         name: "navigation"
         fields:
