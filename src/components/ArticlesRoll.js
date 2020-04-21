@@ -6,25 +6,25 @@ import PreviewCompatibleImage from "./PreviewCompatibleImage";
 class ArticlesRoll extends React.Component {
   render() {
     const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { edges: articles } = data.allMarkdownRemark;
 
     return (
       <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+        {articles &&
+          articles.map(({ node: article }) => (
+            <div className="is-parent column is-6" key={article.id}>
               <article
                 className={`tile is-child box notification ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
+                  article.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
                 <header className="columns">
-                  {post.frontmatter.featuredimage ? (
+                  {article.frontmatter.featuredimage ? (
                     <div className="column is-one-third">
                       <PreviewCompatibleImage
                         imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          image: article.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${article.frontmatter.title}`,
                         }}
                       />
                     </div>
@@ -32,21 +32,21 @@ class ArticlesRoll extends React.Component {
                   <p className="column">
                     <Link
                       className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
+                      to={article.fields.slug}
                     >
-                      {post.frontmatter.title}
+                      {article.frontmatter.title}
                     </Link>
                     <br />
                     <span className="subtitle is-size-5">
-                      {post.frontmatter.date}
+                      {article.frontmatter.date}
                     </span>
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {article.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button" to={article.fields.slug}>
                     Keep Reading →
                   </Link>
                 </p>
