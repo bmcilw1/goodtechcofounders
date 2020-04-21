@@ -14,13 +14,13 @@ class ArticlesRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`tile is-child box notification ${
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
                 <header className="columns">
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail column is-one-third">
+                    <div className="column is-one-third">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -29,7 +29,7 @@ class ArticlesRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta column">
+                  <p className="column">
                     <Link
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
