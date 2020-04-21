@@ -9,20 +9,13 @@ const NavigationPreview = ({ entry, getAsset }) => {
   if (data) {
     return (
       <div>
-        <p> Header moved down due to buttons</p>
-        <br />
-        <br />
-        <br />
+        <div className="hero">
+          <p className="title hero-body"> Header moved down due to buttons</p>
+        </div>
         <Navbar />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className="section">
+          <p> Some filler content here for the body.</p>
+        </div>
         <Footer />
       </div>
     );
