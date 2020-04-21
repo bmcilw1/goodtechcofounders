@@ -7,7 +7,7 @@ const AboutPagePreview = ({ entry, widgetFor, getAsset }) => (
     title={entry.getIn(["data", "title"])}
     content={widgetFor("body")}
     aboutImage={{
-      image: getAsset(entry.getIn(["data", "aboutImage", "image"])),
+      image: getAsset(entry.getIn(["data", "aboutImage", "image"])).toString(),
       alt: entry.getIn(["data", "aboutImage", "alt"]),
     }}
   />
