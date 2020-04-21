@@ -28,15 +28,18 @@ export const ArticlePageTemplate = ({
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
+              <div className="container article-tags">
+                <h2>Tags</h2>
+                <div class="tags">
                   {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
+                    <Link
+                      className="tag is-link"
+                      to={`/tags/${kebabCase(tag)}/`}
+                    >
+                      {tag}
+                    </Link>
                   ))}
-                </ul>
+                </div>
               </div>
             ) : null}
           </div>
