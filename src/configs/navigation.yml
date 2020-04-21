@@ -4,19 +4,24 @@ links:
     path: /
     showInHeader: false
     showInFooter: true
+    externalLink: false
   - text: About
     path: /about
     showInHeader: true
     showInFooter: true
+    externalLink: false
   - text: Articles
     path: /articles
     showInHeader: true
     showInFooter: true
+    externalLink: false
   - text: Contact
     path: /contact
     showInHeader: true
     showInFooter: true
+    externalLink: false
   - text: Admin
     path: /admin
     showInHeader: false
     showInFooter: true
+    externalLink: true
