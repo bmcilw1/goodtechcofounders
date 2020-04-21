@@ -35,30 +35,28 @@ const Footer = class extends React.Component {
                   </Link>
                 );
               })}
-            <div className="column columns">
-              <a
-                className="column"
-                title="Github"
-                href="https://github.com/bmcilw1/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <FaGithub />
-                </span>
-              </a>
-              <a
-                className="column"
-                title="LinkedIn"
-                href="https://www.linkedin.com/in/brian-mcilwain/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <FaLinkedin />
-                </span>
-              </a>
-            </div>
+            <a
+              className="column is-narrow"
+              title="Github"
+              href="https://github.com/bmcilw1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <FaGithub />
+              </span>
+            </a>
+            <a
+              className="column is-narrow"
+              title="LinkedIn"
+              href="https://www.linkedin.com/in/brian-mcilwain/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <FaLinkedin />
+              </span>
+            </a>
           </section>
         </div>
       </footer>
