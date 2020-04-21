@@ -19,16 +19,17 @@ const TagsPage = ({
         <div className="columns">
           <div
             className="column is-10 is-offset-1"
-            style={{ marginBottom: "6rem" }}
+            style={{ marginBottom: "20rem" }}
           >
-            <h1 className="title is-size-2 is-bold-light">Tags</h1>
-            <ul className="taglist">
+            <h1 className="title">Tags</h1>
+            <ul className="tags are-large">
               {group.map((tag) => (
-                <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    {tag.fieldValue} ({tag.totalCount})
-                  </Link>
-                </li>
+                <Link
+                  className="tag is-link is-large"
+                  to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                >
+                  {tag.fieldValue} ({tag.totalCount})
+                </Link>
               ))}
             </ul>
           </div>
