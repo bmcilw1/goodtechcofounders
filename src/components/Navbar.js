@@ -70,6 +70,7 @@ const Navbar = class extends React.Component {
                   if (data.useExternalLink) {
                     return (
                       <a
+                        key={data.path}
                         className="navbar-item"
                         href={data.path}
                         target="_blank"
@@ -81,7 +82,11 @@ const Navbar = class extends React.Component {
                   }
 
                   return (
-                    <Link className="navbar-item" to={data.path}>
+                    <Link
+                      key={data.path}
+                      className="navbar-item"
+                      to={data.path}
+                    >
                       {data.text}
                     </Link>
                   );

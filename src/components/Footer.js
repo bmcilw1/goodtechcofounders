@@ -19,6 +19,7 @@ const Footer = class extends React.Component {
                 if (data.useExternalLink) {
                   return (
                     <a
+                      key={data.path}
                       className="navbar-item column"
                       href={data.path}
                       target="_blank"
@@ -30,7 +31,11 @@ const Footer = class extends React.Component {
                 }
 
                 return (
-                  <Link className="navbar-item column" to={data.path}>
+                  <Link
+                    key={data.path}
+                    className="navbar-item column"
+                    to={data.path}
+                  >
                     {data.text}
                   </Link>
                 );
