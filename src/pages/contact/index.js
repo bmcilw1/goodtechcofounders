@@ -96,14 +96,17 @@ export default class Index extends React.Component {
                       name={"message"}
                       onChange={this.handleChange}
                       id={"message"}
+                      placeholder="Enter your feedback here..."
                       required={true}
                     />
                   </div>
                 </div>
                 <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
-                  </button>
+                  <div className="control">
+                    <button className="button is-link" type="submit">
+                      Send
+                    </button>
+                  </div>
                 </div>
               </form>
             </div>
