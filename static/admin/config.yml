@@ -148,3 +148,67 @@ collections:
                 ],
             }
           - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "config"
+    label: "Configuration"
+    files:
+      - file: "src/config/navigation.md"
+        label: "Navigation"
+        name: "navigation"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "navigation",
+            }
+          - {
+              label: Home Link,
+              name: homeLink,
+              widget: object,
+              fields:
+                [
+                  { label: Link Text, name: text, widget: string },
+                  { label: Link Path, name: path, widget: string },
+                ],
+            }
+          - {
+              label: About Link,
+              name: aboutLink,
+              widget: object,
+              fields:
+                [
+                  { label: Link Text, name: text, widget: string },
+                  { label: Link Path, name: path, widget: string },
+                ],
+            }
+          - {
+              label: Articles Link,
+              name: articlesLink,
+              widget: object,
+              fields:
+                [
+                  { label: Link Text, name: text, widget: string },
+                  { label: Link Path, name: path, widget: string },
+                ],
+            }
+          - {
+              label: Contact Link,
+              name: contactLink,
+              widget: object,
+              fields:
+                [
+                  { label: Link Text, name: text, widget: string },
+                  { label: Link Path, name: path, widget: string },
+                ],
+            }
+          - {
+              label: Admin Link,
+              name: adminLink,
+              widget: object,
+              fields:
+                [
+                  { label: Link Text, name: text, widget: string },
+                  { label: Link Path, name: path, widget: string },
+                ],
+            }
