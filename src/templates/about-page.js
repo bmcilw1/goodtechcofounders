@@ -17,12 +17,10 @@ export const AboutPageTemplate = ({
     <section className="section">
       <div className="container">
         <h2 className="title has-text-centered">{title}</h2>
-        <div className="columns">
-          <div className="column">
-            <PreviewCompatibleImage imageInfo={aboutImage} />
-          </div>
-          <PageContent className="content column" content={content} />
+        <div className="about-img">
+          <PreviewCompatibleImage imageInfo={aboutImage} />
         </div>
+        <PageContent className="content" content={content} />
       </div>
     </section>
   );
@@ -65,7 +63,7 @@ export const aboutPageQuery = graphql`
         aboutImage {
           image {
             childImageSharp {
-              fluid(quality: 64) {
+              fluid(maxWidth: 600) {
                 ...GatsbyImageSharpFluid
               }
             }
