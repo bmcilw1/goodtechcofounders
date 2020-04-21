@@ -12,16 +12,16 @@ export const AboutPageTemplate = ({
   aboutImage,
 }) => {
   const PageContent = contentComponent || Content;
+  console.log(aboutImage);
 
   return (
     <section className="section">
       <div className="container">
         <h2 className="title has-text-centered">{title}</h2>
         <div className="columns">
-          <PreviewCompatibleImage
-            className="column is-one-third"
-            imageInfo={aboutImage}
-          />
+          <div className="column">
+            <PreviewCompatibleImage imageInfo={{ aboutImage }} />
+          </div>
           <PageContent className="content column" content={content} />
         </div>
       </div>
@@ -43,8 +43,8 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
         content={post.html}
+        title={post.frontmatter.title}
         aboutImage={post.frontmatter.aboutImage}
       />
     </Layout>
