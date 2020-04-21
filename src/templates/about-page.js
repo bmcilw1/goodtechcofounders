@@ -12,7 +12,6 @@ export const AboutPageTemplate = ({
   aboutImage,
 }) => {
   const PageContent = contentComponent || Content;
-  console.log(aboutImage);
 
   return (
     <section className="section">
