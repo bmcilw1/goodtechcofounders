@@ -12,4 +12,7 @@ articlesLink:
 contactLink:
   text: Contact
   path: /contact
+adminLink:
+  text: Admin
+  path: /admin
 ---

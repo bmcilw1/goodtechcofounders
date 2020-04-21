@@ -21,7 +21,7 @@ const Footer = class extends React.Component {
               </Link>
               <a
                 className="navbar-item"
-                href="/admin/"
+                href="/admin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
