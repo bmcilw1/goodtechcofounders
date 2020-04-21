@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import logo from "../img/logo.svg";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import NavigationData from "../configs/navigation.yml";
 
 const Footer = class extends React.Component {
   render() {
@@ -13,28 +14,28 @@ const Footer = class extends React.Component {
         <div className="container">
           <section className="columns">
             <div className="column menu-list">
-              <Link to="/" className="navbar-item">
-                Home
-              </Link>
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <a
-                className="navbar-item"
-                href="/admin"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Admin
-              </a>
-            </div>
-            <div className="column menu-list">
-              <Link className="navbar-item" to="/articles">
-                Articles
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
+              {NavigationData.links
+                .filter((data) => data.showInFooter)
+                .map((data) => {
+                  if (data.useExternalLink) {
+                    return (
+                      <a
+                        className="navbar-item"
+                        href={data.path}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {data.text}
+                      </a>
+                    );
+                  }
+
+                  return (
+                    <Link className="navbar-item" to={data.path}>
+                      {data.text}
+                    </Link>
+                  );
+                })}
             </div>
             <div className="column">
               <a
