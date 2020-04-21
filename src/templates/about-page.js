@@ -20,7 +20,7 @@ export const AboutPageTemplate = ({
         <h2 className="title has-text-centered">{title}</h2>
         <div className="columns">
           <div className="column">
-            <PreviewCompatibleImage imageInfo={{ aboutImage }} />
+            <PreviewCompatibleImage imageInfo={aboutImage} />
           </div>
           <PageContent className="content column" content={content} />
         </div>
