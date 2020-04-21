@@ -1,0 +1,22 @@
+templateKey: navigation
+links:
+  - text: Home
+    path: /
+    showInHeader: false
+    showInFooter: true
+  - text: About
+    path: /about
+    showInHeader: true
+    showInFooter: true
+  - text: Articles
+    path: /articles
+    showInHeader: true
+    showInFooter: true
+  - text: Contact
+    path: /contact
+    showInHeader: true
+    showInFooter: true
+  - text: Admin
+    path: /admin
+    showInHeader: false
+    showInFooter: true

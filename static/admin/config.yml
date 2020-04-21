@@ -152,63 +152,41 @@ collections:
   - name: "configs"
     label: "Configurations"
     files:
-      - file: "src/configs/navigation.md"
+      - file: "src/configs/navigation.yml"
         label: "Navigation"
         name: "navigation"
         fields:
           - {
               label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "navigation",
+              name: templateKey,
+              widget: hidden,
+              default: navigation,
             }
           - {
-              label: Home Link,
-              name: homeLink,
-              widget: object,
+              label: "Links",
+              name: "links",
+              widget: list,
               fields:
                 [
-                  { label: Link Text, name: text, widget: string },
-                  { label: Link Path, name: path, widget: string },
-                ],
-            }
-          - {
-              label: About Link,
-              name: aboutLink,
-              widget: object,
-              fields:
-                [
-                  { label: Link Text, name: text, widget: string },
-                  { label: Link Path, name: path, widget: string },
-                ],
-            }
-          - {
-              label: Articles Link,
-              name: articlesLink,
-              widget: object,
-              fields:
-                [
-                  { label: Link Text, name: text, widget: string },
-                  { label: Link Path, name: path, widget: string },
-                ],
-            }
-          - {
-              label: Contact Link,
-              name: contactLink,
-              widget: object,
-              fields:
-                [
-                  { label: Link Text, name: text, widget: string },
-                  { label: Link Path, name: path, widget: string },
-                ],
-            }
-          - {
-              label: Admin Link,
-              name: adminLink,
-              widget: object,
-              fields:
-                [
-                  { label: Link Text, name: text, widget: string },
-                  { label: Link Path, name: path, widget: string },
+                  { label: Text, name: text, widget: string },
+                  { label: Path, name: path, widget: string },
+                  {
+                    label: Show in Header,
+                    name: showInHeader,
+                    widget: boolean,
+                    default: true,
+                  },
+                  {
+                    label: Show in Footer,
+                    name: showInFooter,
+                    widget: boolean,
+                    default: true,
+                  },
+                  {
+                    label: Use External Link,
+                    name: externalLink,
+                    widget: boolean,
+                    default: false,
+                  },
                 ],
             }
