@@ -1,7 +1,7 @@
 {
   "name": "goodtechcofounders",
   "description": "Helping you find good technical co-founders. Helping you become a better technical co-founder.",
-  "version": "1.0",
+  "version": "1.0.0",
   "author": "Brian McIlwain",
   "dependencies": {
     "bulma": "^0.8.2",
