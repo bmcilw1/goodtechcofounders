@@ -184,7 +184,7 @@ collections:
                   },
                   {
                     label: Use External Link,
-                    name: externalLink,
+                    name: useExternalLink,
                     widget: boolean,
                     default: false,
                   },
