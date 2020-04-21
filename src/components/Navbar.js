@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { FaLinkedin } from "react-icons/fa";
 import logo from "../img/logo.svg";
+import NavigationData from "../configs/navigation.yml";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -63,15 +64,28 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/articles">
-                Articles
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
+              {NavigationData.links
+                .filter((data) => data.showInHeader)
+                .map((data) => {
+                  if (data.useExternalLink) {
+                    return (
+                      <a
+                        className="navbar-item"
+                        href={data.path}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {data.text}
+                      </a>
+                    );
+                  }
+
+                  return (
+                    <Link className="navbar-item" to={data.path}>
+                      {data.text}
+                    </Link>
+                  );
+                })}
             </div>
             <div className="navbar-end has-text-centered">
               <a
