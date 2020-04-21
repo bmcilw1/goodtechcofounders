@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../../components/Layout'
-import ArticlesRoll from '../../components/ArticlesRoll'
+import Layout from "../../components/Layout";
+import ArticlesRoll from "../../components/ArticlesRoll";
 
 export default class ArticleIndexPage extends React.Component {
   render() {
@@ -16,10 +16,10 @@ export default class ArticleIndexPage extends React.Component {
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
+              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
+              backgroundColor: "#f40",
+              color: "white",
+              padding: "1rem",
             }}
           >
             Latest Stories
@@ -33,6 +33,6 @@ export default class ArticleIndexPage extends React.Component {
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
