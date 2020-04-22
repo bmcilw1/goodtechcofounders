@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaSun, FaMoon } from "react-icons/fa";
 import logo from "../img/logo.svg";
 import NavigationData from "../configs/navigation.yml";
 
@@ -8,6 +8,7 @@ const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      darkMode: false,
       active: false,
       navBarActiveClass: "",
     };
@@ -30,6 +31,16 @@ const Navbar = class extends React.Component {
               navBarActiveClass: "",
             });
       }
+    );
+  };
+  toggleDarkMode = () => {
+    // toggle the active boolean in the state
+    this.setState(
+      {
+        darkMode: !this.state.darkMode,
+      },
+      // after state has been updated,
+      () => {}
     );
   };
 
@@ -93,6 +104,18 @@ const Navbar = class extends React.Component {
                 })}
             </div>
             <div className="navbar-end has-text-centered is-size-5">
+              <div
+                className="navbar-item"
+                data-target="navMenu"
+                role="button"
+                tabIndex={0}
+                onClick={() => this.toggleDarkMode()}
+                onKeyPress={() => this.toggleDarkMode()}
+              >
+                <span className="icon">
+                  {this.darkMode ? <FaSun /> : <FaMoon />}
+                </span>
+              </div>
               <a
                 className="navbar-item"
                 title="LinkedIn"
