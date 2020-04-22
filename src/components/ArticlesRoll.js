@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
-class ArticleCard extends React.Component {
+export class ArticleCard extends React.Component {
   render() {
     const { article } = this.props;
 
