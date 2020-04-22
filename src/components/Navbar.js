@@ -40,7 +40,13 @@ const Navbar = class extends React.Component {
         darkMode: !this.state.darkMode,
       },
       // after state has been updated,
-      () => {}
+      () => {
+        if (this.darkMode) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      }
     );
   };
 
