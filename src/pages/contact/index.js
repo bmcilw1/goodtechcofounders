@@ -1,6 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import { FaUser, FaEnvelope } from "react-icons/fa";
 
 function encode(data) {
   return Object.keys(data)
@@ -60,7 +61,7 @@ export default class Index extends React.Component {
                   <label className="label" htmlFor={"name"}>
                     Your name
                   </label>
-                  <div className="control">
+                  <div className="control has-icons-left">
                     <input
                       className="input"
                       type={"text"}
@@ -69,13 +70,16 @@ export default class Index extends React.Component {
                       id={"name"}
                       required={true}
                     />
+                    <span class="icon is-left has-text-grey">
+                      <FaUser />
+                    </span>
                   </div>
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={"email"}>
                     Email
                   </label>
-                  <div className="control">
+                  <div className="control has-icons-left">
                     <input
                       className="input"
                       type={"email"}
@@ -84,6 +88,9 @@ export default class Index extends React.Component {
                       id={"email"}
                       required={true}
                     />
+                    <span class="icon is-left has-text-grey">
+                      <FaEnvelope />
+                    </span>
                   </div>
                 </div>
                 <div className="field">
