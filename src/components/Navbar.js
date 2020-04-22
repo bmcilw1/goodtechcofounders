@@ -126,7 +126,6 @@ const DarkThemeToggleButton = () => {
   return (
     <div
       className="navbar-item"
-      data-target="navMenu"
       role="button"
       tabIndex={0}
       onClick={changeTheme}
