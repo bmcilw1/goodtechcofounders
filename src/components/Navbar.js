@@ -8,7 +8,6 @@ const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      darkMode: false,
       active: false,
       navBarActiveClass: "",
     };
@@ -33,16 +32,7 @@ const Navbar = class extends React.Component {
       }
     );
   };
-  toggleDarkMode = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        darkMode: !this.state.darkMode,
-      },
-      // after state has been updated,
-      () => {}
-    );
-  };
+  toggleDarkMode = () => {};
 
   render() {
     return (
@@ -112,9 +102,7 @@ const Navbar = class extends React.Component {
                 onClick={() => this.toggleDarkMode()}
                 onKeyPress={() => this.toggleDarkMode()}
               >
-                <span className="icon">
-                  {this.darkMode ? <FaSun /> : <FaMoon />}
-                </span>
+                <span className="icon">{true ? <FaSun /> : <FaMoon />}</span>
               </div>
               <a
                 className="navbar-item"
