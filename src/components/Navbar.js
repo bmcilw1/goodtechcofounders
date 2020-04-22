@@ -94,7 +94,6 @@ const Navbar = class extends React.Component {
                 })}
             </div>
             <div className="navbar-end has-text-centered is-size-5">
-              <DarkThemeToggleButton />
               <a
                 className="navbar-item"
                 title="LinkedIn"
