@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { useTheme } from "../components/Theme";
+import { useTheme, ThemeProvider } from "../components/Theme";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
@@ -57,9 +57,11 @@ const TemplateWrapper = ({ children }) => {
 
         <body className={theme} />
       </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
+      <ThemeProvider>
+        <Navbar />
+        <div>{children}</div>
+        <Footer />
+      </ThemeProvider>
     </div>
   );
 };
