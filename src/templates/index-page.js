@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
             </h3>
             <ArticlesRoll />
             <div className="has-text-centered">
-              <Link className="button is-large is-primary" to="/articles">
+              <Link className="button is-medium is-primary" to="/articles">
                 Read more
               </Link>
             </div>
