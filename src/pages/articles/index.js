@@ -7,7 +7,7 @@ export default class ArticleIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="hero has-background-primary">
+        <section className="hero is-primary">
           <div className="hero-body">
             <div className="container">
               <h1 className="title">Articles</h1>
