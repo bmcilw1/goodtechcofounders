@@ -129,8 +129,9 @@ const DarkThemeToggleButton = () => {
       data-target="navMenu"
       role="button"
       tabIndex={0}
-      onClick={() => changeTheme}
-      onKeyPress={() => changeTheme}
+      onClick={changeTheme}
+      onKeyPress={changeTheme}
+      style={{ cursor: "pointer" }}
     >
       <span className="icon">{theme === "dark" ? <FaSun /> : <FaMoon />}</span>
     </div>
