@@ -118,7 +118,10 @@ export default Navbar;
 
 const DarkThemeToggleButton = () => {
   const [theme, setTheme] = useTheme();
-  const changeTheme = useCallback(() => setTheme(theme), [theme, setTheme]);
+  const changeTheme = useCallback(
+    () => setTheme(theme === "dark" ? "light" : "dark"),
+    [theme, setTheme]
+  );
 
   return (
     <div
