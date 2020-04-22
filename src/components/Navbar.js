@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { Link } from "gatsby";
 import { FaLinkedin, FaSun, FaMoon } from "react-icons/fa";
 import logo from "../img/logo.svg";
 import NavigationData from "../configs/navigation.yml";
+import { useTheme } from "../components/Theme";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -32,7 +33,6 @@ const Navbar = class extends React.Component {
       }
     );
   };
-  toggleDarkMode = () => {};
 
   render() {
     return (
@@ -94,16 +94,7 @@ const Navbar = class extends React.Component {
                 })}
             </div>
             <div className="navbar-end has-text-centered is-size-5">
-              <div
-                className="navbar-item"
-                data-target="navMenu"
-                role="button"
-                tabIndex={0}
-                onClick={() => this.toggleDarkMode()}
-                onKeyPress={() => this.toggleDarkMode()}
-              >
-                <span className="icon">{true ? <FaSun /> : <FaMoon />}</span>
-              </div>
+              <DarkThemeToggleButton />
               <a
                 className="navbar-item"
                 title="LinkedIn"
@@ -124,3 +115,21 @@ const Navbar = class extends React.Component {
 };
 
 export default Navbar;
+
+const DarkThemeToggleButton = () => {
+  const [theme, setTheme] = useTheme();
+  const changeTheme = useCallback(() => setTheme(theme), [theme, setTheme]);
+
+  return (
+    <div
+      className="navbar-item"
+      data-target="navMenu"
+      role="button"
+      tabIndex={0}
+      onClick={() => changeTheme}
+      onKeyPress={() => changeTheme}
+    >
+      <span className="icon">{theme === "dark" ? <FaSun /> : <FaMoon />}</span>
+    </div>
+  );
+};
