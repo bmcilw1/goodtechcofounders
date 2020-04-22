@@ -9,7 +9,6 @@ import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
-  const theme = useTheme();
 
   return (
     <div>
@@ -55,9 +54,8 @@ const TemplateWrapper = ({ children }) => {
             name="viewport"
             content="width=device-width, initial-scale=1"
           ></meta>
-
-          <body className={theme} />
         </Helmet>
+        <ThemeClassOnBody />
         <Navbar />
         <div>{children}</div>
         <Footer />
@@ -67,3 +65,12 @@ const TemplateWrapper = ({ children }) => {
 };
 
 export default TemplateWrapper;
+
+const ThemeClassOnBody = () => {
+  const [theme] = useTheme();
+  return (
+    <Helmet>
+      <body className={theme} />
+    </Helmet>
+  );
+};
