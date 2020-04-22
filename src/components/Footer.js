@@ -41,7 +41,7 @@ const Footer = class extends React.Component {
                 );
               })}
             <div className="column">
-              <div className="columns">
+              <div className="columns is-size-5">
                 <a
                   className="column"
                   title="Github"
