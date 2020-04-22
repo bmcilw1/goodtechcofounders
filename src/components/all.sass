@@ -6,6 +6,15 @@ $scheme-invert: $black
 @media (prefers-color-scheme: dark)
     $scheme-main: $black
     $scheme-invert: $white
+@media (prefers-color-scheme: light)
+    $scheme-main: $white
+    $scheme-invert: $black
+body.dark
+    $scheme-main: $black
+    $scheme-invert: $white
+body.light
+    $scheme-main: $white
+    $scheme-invert: $black
 
 .about-img
     padding-right: 1em
