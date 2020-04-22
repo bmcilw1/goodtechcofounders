@@ -27,6 +27,7 @@ const TagsPage = ({
                 <Link
                   className="tag is-link is-large"
                   to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                  key={`/tags/${kebabCase(tag.fieldValue)}/`}
                 >
                   {tag.fieldValue} ({tag.totalCount})
                 </Link>
