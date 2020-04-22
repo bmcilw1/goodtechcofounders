@@ -9,7 +9,7 @@ import NavigationData from "../configs/navigation.yml";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black-bis has-text-white-ter has-text-centered">
+      <footer className="footer has-background-black-bis has-text-centered">
         <img src={logo} alt="Kaldi" style={{ width: "14em", height: "10em" }} />
         <div className="container">
           <section className="columns is-multiline menu-list">
