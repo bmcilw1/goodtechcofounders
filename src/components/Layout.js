@@ -2,14 +2,12 @@ import { React } from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { ThemeProvider, useTheme } from "../components/Theme";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
-  const [theme] = useTheme();
 
   return (
     <div>
@@ -54,14 +52,10 @@ const TemplateWrapper = ({ children }) => {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-
-        <body className={theme} />
       </Helmet>
-      <ThemeProvider>
-        <Navbar />
-        <div>{children}</div>
-        <Footer />
-      </ThemeProvider>
+      <Navbar />
+      <div>{children}</div>
+      <Footer />
     </div>
   );
 };
