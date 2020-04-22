@@ -25,13 +25,14 @@ class TagRoute extends React.Component {
                 style={{ marginBottom: "6rem" }}
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <div className="columns">
+                <div className="columns is-multiline">
                   {articles.map((article) => (
-                    <ArticleCard
+                    <div
                       className="column is-half"
-                      article={article.node}
                       key={article.node.fields.slug}
-                    />
+                    >
+                      <ArticleCard article={article.node} />
+                    </div>
                   ))}
                 </div>
                 <Link className="button is-link" to="/tags/">
