@@ -25,13 +25,10 @@ const TagsPage = ({
             <div className="tags are-medium">
               {group.map((tag) => (
                 <div
-                  className="tag"
+                  className="tag control"
                   key={`/tags/${kebabCase(tag.fieldValue)}/`}
                 >
-                  <Link
-                    to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                    className="control"
-                  >
+                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                     <div className="tags has-addons">
                       <span className="tag is-link">{tag.fieldValue}</span>
                       <span className="tag is-dark">{tag.totalCount}</span>
