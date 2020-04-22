@@ -41,7 +41,7 @@ export class ArticleCard extends React.Component {
           {article.excerpt}
           <br />
           <br />
-          <Link className="button is-primary" to={article.fields.slug}>
+          <Link className="button is-primary is-outlined" to={article.fields.slug}>
             Keep Reading →
           </Link>
         </p>
