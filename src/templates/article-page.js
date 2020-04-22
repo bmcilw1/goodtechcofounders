@@ -19,17 +19,19 @@ export const ArticlePageTemplate = ({
   return (
     <section className="section">
       {helmet || ""}
-      <div className="container content">
+      <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
+            <div className="content">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {title}
+              </h1>
+              <p>{description}</p>
+              <PostContent content={content} />
+            </div>
             {tags && tags.length ? (
               <div className="container article-tags">
-                <h2>Tags</h2>
+                <div className="title">Tags</div>
                 <div className="tags are-medium">
                   {tags.map((tag) => (
                     <Link
