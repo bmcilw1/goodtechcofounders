@@ -32,7 +32,7 @@ const TagsPage = ({
                     to={`/tags/${kebabCase(tag.fieldValue)}/`}
                     className="control"
                   >
-                    <div className="tags has-addons">
+                    <div className="tags has-addons are-large">
                       <span className="tag is-link">{tag.fieldValue}</span>
                       <span className="tag">{tag.totalCount}</span>
                     </div>
