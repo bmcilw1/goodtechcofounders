@@ -17,7 +17,7 @@ export const AboutPageTemplate = ({
     <section className="section">
       <div className="container">
         <h2 className="title has-text-centered">{title}</h2>
-        <div className="about-img">
+        <div className="is-pulled-left about-img">
           <PreviewCompatibleImage imageInfo={aboutImage} />
         </div>
         <PageContent className="content" content={content} />
