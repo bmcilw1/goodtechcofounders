@@ -30,11 +30,11 @@ export const ArticlePageTemplate = ({
             {tags && tags.length ? (
               <div className="container article-tags">
                 <h2>Tags</h2>
-                <div className="tags">
+                <div className="tags are-medium">
                   {tags.map((tag) => (
                     <Link
                       key={`/tags/${kebabCase(tag)}/`}
-                      className="tag is-link"
+                      className="tag is-primary"
                       to={`/tags/${kebabCase(tag)}/`}
                     >
                       {tag}
