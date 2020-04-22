@@ -70,7 +70,7 @@ export default class Index extends React.Component {
                       id={"name"}
                       required={true}
                     />
-                    <span class="icon is-left has-text-grey">
+                    <span className="icon is-left has-text-grey">
                       <FaUser />
                     </span>
                   </div>
@@ -88,7 +88,7 @@ export default class Index extends React.Component {
                       id={"email"}
                       required={true}
                     />
-                    <span class="icon is-left has-text-grey">
+                    <span className="icon is-left has-text-grey">
                       <FaEnvelope />
                     </span>
                   </div>
