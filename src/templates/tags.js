@@ -35,7 +35,7 @@ class TagRoute extends React.Component {
                     </div>
                   ))}
                 </div>
-                <Link className="button is-link" to="/tags/">
+                <Link className="button is-link is-medium is-centered" to="/tags/">
                   Browse all tags
                 </Link>
               </div>
