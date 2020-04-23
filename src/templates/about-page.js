@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import ReactMarkdown from "react-markdown";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const AboutPageTemplate = ({
@@ -31,7 +32,7 @@ export const AboutPageTemplate = ({
               <div className="columns">
                 <div className="column is-one-third">
                   <div className="title">{introTitle}</div>
-                  <PageContent className="content" content={introText} />
+                  <ReactMarkdown className="content" source={introText} />
                 </div>
                 <div className="column">
                   <PreviewCompatibleImage imageInfo={aboutImage} />
