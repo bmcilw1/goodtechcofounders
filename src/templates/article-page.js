@@ -17,38 +17,64 @@ export const ArticlePageTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
-      {helmet || ""}
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="content">
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                {title}
-              </h1>
-              <p>{description}</p>
-              <PostContent content={content} />
-            </div>
-            {tags && tags.length ? (
-              <div className="container article-tags">
-                <div className="title">Tags</div>
-                <div className="tags are-medium">
-                  {tags.map((tag) => (
-                    <Link
-                      key={`/tags/${kebabCase(tag)}/`}
-                      className="tag is-primary"
-                      to={`/tags/${kebabCase(tag)}/`}
-                    >
-                      {tag}
+    <>
+      <section className="section">
+        {helmet || ""}
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <nav className="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/articles">All Articles</Link>
+                  </li>
+                  <li className="is-active">
+                    <Link aria-current="page" to="/articles">
+                      {title}
                     </Link>
-                  ))}
-                </div>
-              </div>
-            ) : null}
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className="section">
+        {helmet || ""}
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                  {title}
+                </h1>
+                <p>{description}</p>
+                <PostContent content={content} />
+              </div>
+              {tags && tags.length ? (
+                <div className="container article-tags">
+                  <div className="title">Tags</div>
+                  <div className="tags are-medium">
+                    {tags.map((tag) => (
+                      <Link
+                        key={`/tags/${kebabCase(tag)}/`}
+                        className="tag is-primary"
+                        to={`/tags/${kebabCase(tag)}/`}
+                      >
+                        {tag}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
