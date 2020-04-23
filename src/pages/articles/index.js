@@ -10,7 +10,7 @@ export default class ArticleIndexPage extends React.Component {
         <section className="hero is-primary">
           <div className="hero-body">
             <div className="container">
-              <h1 className="title">Articles</h1>
+              <div className="title">Articles</div>
             </div>
           </div>
         </section>

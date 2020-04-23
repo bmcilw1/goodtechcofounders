@@ -14,15 +14,23 @@ export const AboutPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section">
-      <div className="container">
-        <h2 className="title has-text-centered">{title}</h2>
-        <div className="is-pulled-left about-img">
-          <PreviewCompatibleImage imageInfo={aboutImage} />
+    <>
+      <section className="hero is-primary">
+        <div className="hero-body">
+          <div className="container">
+            <div className="title">{title}</div>
+          </div>
         </div>
-        <PageContent className="content" content={content} />
-      </div>
-    </section>
+      </section>
+      <section className="section">
+        <div className="container">
+          <div className="is-pulled-left about-img">
+            <PreviewCompatibleImage imageInfo={aboutImage} />
+          </div>
+          <PageContent className="content" content={content} />
+        </div>
+      </section>
+    </>
   );
 };
 
