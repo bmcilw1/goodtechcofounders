@@ -24,10 +24,14 @@ export const AboutPageTemplate = ({
       </section>
       <section className="section">
         <div className="container">
-          <div className="is-pulled-left about-img">
+        <div className="columns">
+        <div className="column is-10 is-offset-1">
+          <div className="is-pulled-right about-img">
             <PreviewCompatibleImage imageInfo={aboutImage} />
           </div>
           <PageContent className="content" content={content} />
+        </div>
+        </div>
         </div>
       </section>
     </>
