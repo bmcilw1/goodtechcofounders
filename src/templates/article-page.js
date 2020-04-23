@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const ArticlePageTemplate = ({
   content,
@@ -12,7 +13,10 @@ export const ArticlePageTemplate = ({
   description,
   tags,
   title,
+  slug,
   helmet,
+  featuredimage,
+  date,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -21,25 +25,26 @@ export const ArticlePageTemplate = ({
       <section className="section">
         {helmet || ""}
         <div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <nav className="breadcrumb" aria-label="breadcrumbs">
-                <ul>
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="/articles">All Articles</Link>
-                  </li>
-                  <li className="is-active">
-                    <Link aria-current="page" to="/articles">
-                      {title}
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
+          <nav className="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/articles">All Articles</Link>
+              </li>
+              <li className="is-active">
+                <Link aria-current="page" to={"/articles/" + slug}>
+                  {title}
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
+          <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            {title}
+          </h1>
+          <h2 className="subtitle">{date}</h2>
         </div>
       </section>
       <section className="section">
@@ -47,10 +52,21 @@ export const ArticlePageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: featuredimage,
+                  alt: `featured image for post ${title}`,
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
               <div className="content">
-                <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                  {title}
-                </h1>
                 <p>{description}</p>
                 <PostContent content={content} />
               </div>
@@ -83,7 +99,10 @@ ArticlePageTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  slug: PropTypes.string,
   helmet: PropTypes.object,
+  featuredimage: PropTypes.object,
+  date: PropTypes.string,
 };
 
 const Article = ({ data }) => {
@@ -106,6 +125,9 @@ const Article = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        slug={post.fields.slug}
+        featuredimage={post.frontmatter.featuredimage}
+        date={post.frontmatter.date}
       />
     </Layout>
   );
@@ -124,11 +146,22 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        templateKey
         description
         tags
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 236, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
