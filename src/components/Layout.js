@@ -52,6 +52,7 @@ const TemplateWrapper = ({ children }) => {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
+        <body className="has-navbar-fixed-top"></body>
       </Helmet>
       <Navbar />
       <div>{children}</div>
