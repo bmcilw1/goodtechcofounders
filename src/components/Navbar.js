@@ -95,7 +95,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered is-size-5">
               <div className="columns is-vcentered">
                 <div className="column is-10">
-                  <div className="field">
+                  <div className="field navbar-item">
                     <div className="control has-icons-left">
                       <input
                         className="input"
@@ -116,7 +116,7 @@ const Navbar = class extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span className="icon has-text-light">
+                    <span className="icon">
                       <FaLinkedin />
                     </span>
                   </a>
