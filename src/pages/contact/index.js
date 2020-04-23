@@ -40,7 +40,7 @@ export default class Index extends React.Component {
         <section className="hero is-primary is-bold">
           <div className="hero-body">
             <div className="container">
-              <div className="title">Contact</div>
+              <div className="title">Contact me</div>
             </div>
           </div>
         </section>
