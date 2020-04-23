@@ -92,7 +92,7 @@ const Navbar = class extends React.Component {
                   );
                 })}
             </div>
-            <div className="navbar-end has-text-centered is-vcentered">
+            <div className="navbar-end">
               <div className="field navbar-item">
                 <div className="control has-icons-left">
                   <input
