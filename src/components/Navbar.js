@@ -92,36 +92,30 @@ const Navbar = class extends React.Component {
                   );
                 })}
             </div>
-            <div className="navbar-end has-text-centered is-size-5">
-              <div className="columns is-vcentered">
-                <div className="column is-10">
-                  <div className="field navbar-item">
-                    <div className="control has-icons-left">
-                      <input
-                        className="input"
-                        type="text"
-                        placeholder="Search..."
-                      />
-                      <span className="icon is-left">
-                        <FaSearch />
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="column is-centered">
-                  <a
-                    className="navbar-item is-2"
-                    title="LinkedIn"
-                    href="https://www.linkedin.com/in/brian-mcilwain/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="icon">
-                      <FaLinkedin />
-                    </span>
-                  </a>
+            <div className="navbar-end has-text-centered is-vcentered">
+              <div className="field navbar-item">
+                <div className="control has-icons-left">
+                  <input
+                    className="input"
+                    type="text"
+                    placeholder="Search..."
+                  />
+                  <span className="icon is-left">
+                    <FaSearch />
+                  </span>
                 </div>
               </div>
+              <a
+                className="navbar-item is-size-5"
+                title="LinkedIn"
+                href="https://www.linkedin.com/in/brian-mcilwain/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <FaLinkedin />
+                </span>
+              </a>
             </div>
           </div>
         </div>
