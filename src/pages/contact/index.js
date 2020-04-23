@@ -109,7 +109,7 @@ export default class Index extends React.Component {
                       name={"message"}
                       onChange={this.handleChange}
                       id={"message"}
-                      placeholder="Enter your feedback here..."
+                      placeholder="Glad you're here! I can't promise I'll be able to help but I can promise to respond :)"
                       required={true}
                     />
                   </div>
