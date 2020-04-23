@@ -7,22 +7,22 @@ aboutImage:
   alt: Brian McIlwain
 ---
 
-### Shade-grown coffee
+# Into
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Hi there, and thanks for checking out the site! My name is Brian McIlwain, and I've devoted myself to helping startup businesses succeed through software. Whether you're the aspiring entrepreneur struggling to find a good technical co-founder, or if you're technical and looking to improve yourself as technical co-founder - I'm here for you! Let me share how I came to understand both of these people through my personal experience and how this site can help to increase the odds of your startup's success.
 
-### Single origin
+# My Story
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+## The Background
 
-### Sustainable farming
+At the end of 2018 I knew I had a problem. I had just reached my fifth year of professional software development. I'd worked as a Software Consultant under three consultancies. I had served dozens of clients across small, medium, and Fortune 500 companies. I had a great career with excellent upwards mobility in the field I wanted. I was looked to as an expert on all of my projects. In spite of everything, I wasn't happy.
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+> I realized that I couldn't continue to be happy helping large, well-budgeted companies solve problems dozens of consultancies could help with.
 
-### Direct sourcing
+## The Jump
 
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+## The First Solution
 
-### Reinvest profits
+## The Scalable Solution
 
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+## My Commitment to You
