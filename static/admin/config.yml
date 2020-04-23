@@ -137,6 +137,8 @@ collections:
               default: "about-page",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro Title", name: "introTitle", widget: "string" }
+          - { label: "Intro Text", name: "introText", widget: "string" }
           - {
               label: About Image,
               name: aboutImage,

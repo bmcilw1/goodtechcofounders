@@ -7,6 +7,8 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const AboutPageTemplate = ({
   title,
+  introTitle,
+  introText,
   content,
   contentComponent,
   aboutImage,
@@ -24,14 +26,20 @@ export const AboutPageTemplate = ({
       </section>
       <section className="section">
         <div className="container">
-        <div className="columns">
-        <div className="column is-10 is-offset-1">
-          <div className="is-pulled-right about-img">
-            <PreviewCompatibleImage imageInfo={aboutImage} />
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="columns">
+                <div className="column is-one-third">
+                  <div className="title">{introTitle}</div>
+                  <PageContent className="content" content={introText} />
+                </div>
+                <div className="column">
+                  <PreviewCompatibleImage imageInfo={aboutImage} />
+                </div>
+              </div>
+              <PageContent className="content" content={content} />
+            </div>
           </div>
-          <PageContent className="content" content={content} />
-        </div>
-        </div>
         </div>
       </section>
     </>
@@ -40,7 +48,9 @@ export const AboutPageTemplate = ({
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
+  introTitle: PropTypes.string.isRequired,
+  introText: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
   contentComponent: PropTypes.func,
   aboutImage: PropTypes.object.isRequired,
 };
@@ -54,6 +64,8 @@ const AboutPage = ({ data }) => {
         contentComponent={HTMLContent}
         content={post.html}
         title={post.frontmatter.title}
+        introTitle={post.frontmatter.introTitle}
+        introText={post.frontmatter.introText}
         aboutImage={post.frontmatter.aboutImage}
       />
     </Layout>
@@ -72,11 +84,13 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        introTitle
+        introText
         aboutImage {
           image {
             childImageSharp {
-              fixed(width: 600, quality: 64) {
-                ...GatsbyImageSharpFixed
+              fluid(maxWidth: 600, quality: 64) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
