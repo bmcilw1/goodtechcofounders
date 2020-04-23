@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { FaLinkedin, FaSearch } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import logo from "../img/logo.svg";
 import NavigationData from "../configs/navigation.yml";
 
@@ -93,18 +93,6 @@ const Navbar = class extends React.Component {
                 })}
             </div>
             <div className="navbar-end">
-              <div className="field navbar-item">
-                <div className="control has-icons-left">
-                  <input
-                    className="input"
-                    type="text"
-                    placeholder="Search..."
-                  />
-                  <span className="icon is-left">
-                    <FaSearch />
-                  </span>
-                </div>
-              </div>
               <a
                 className="navbar-item is-size-5"
                 title="LinkedIn"
