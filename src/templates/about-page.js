@@ -15,7 +15,7 @@ export const AboutPageTemplate = ({
 
   return (
     <>
-      <section className="hero is-primary">
+      <section className="hero is-primary is-bold">
         <div className="hero-body">
           <div className="container">
             <div className="title">{title}</div>
