@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaSearch } from "react-icons/fa";
 import logo from "../img/logo.svg";
 import NavigationData from "../configs/navigation.yml";
 
@@ -93,17 +93,35 @@ const Navbar = class extends React.Component {
                 })}
             </div>
             <div className="navbar-end has-text-centered is-size-5">
-              <a
-                className="navbar-item"
-                title="LinkedIn"
-                href="https://www.linkedin.com/in/brian-mcilwain/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <FaLinkedin />
-                </span>
-              </a>
+              <div className="columns is-vcentered">
+                <div className="column">
+                  <div className="field">
+                    <div className="control has-icons-left">
+                      <input
+                        className="input"
+                        type="text"
+                        placeholder="Search..."
+                      />
+                      <span className="icon is-left">
+                        <FaSearch />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="column">
+                  <a
+                    className="navbar-item"
+                    title="LinkedIn"
+                    href="https://www.linkedin.com/in/brian-mcilwain/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="icon">
+                      <FaLinkedin />
+                    </span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
