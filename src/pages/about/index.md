@@ -1,10 +1,10 @@
 ---
 templateKey: about-page
 path: /about
-title: About our values
+title: About me
 aboutImage:
-  image: /img/flavor_wheel.jpg
-  alt: Test of alt tag
+  image: /img/about-profile.jpg
+  alt: Brian McIlwain
 ---
 
 ### Shade-grown coffee
