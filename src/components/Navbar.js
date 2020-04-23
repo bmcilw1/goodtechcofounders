@@ -92,7 +92,7 @@ const Navbar = class extends React.Component {
                   );
                 })}
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item is-size-5"
                 title="LinkedIn"
