@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Cofounder Compass",
+    title: "Cofounder's Compass",
     description:
       "The missing guide for cofounders trying to succeed in business, finance, and life.",
   },
