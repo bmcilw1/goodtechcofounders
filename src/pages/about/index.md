@@ -6,9 +6,9 @@ introTitle: Intro
 introText: |
   Hi there, and thanks for checking out the site!
 
-  My name is Brian McIlwain, and I've devoted myself to helping startups succeed through software. You may be the aspiring entrepreneur trying to see if technology could help you achieve your vision. Perhaps you're actively looking for someone who can help you build your dream. You may be technical and looking to improve yourself- perhaps you're interested in the idea of founding a technology company but you're not sure where to start. Maybe you just feel like you could do better for yourself than the job you have now.
+  My name is Brian McIlwain, and I've devoted myself to helping startups succeed through software. You may be the aspiring entrepreneur trying to see if technology could help you achieve your vision. Perhaps you're actively looking for someone who can help you build your dream. You may be technical and looking to improve yourself- perhaps you're interested in the idea of founding a technology company but you're not sure where to start. Maybe you just feel like you want more than a job.
 
-  For all of these people and anyone else who can be benefited by a mindset that teaches you how to get what you want through leveraging the technology of our day - this resource is for you.
+  For all of those who can be benefited by a mindset that teaches you how to get what you want through leveraging the technology of our day - this resource is for you.
 
 aboutImage:
   image: /img/about-profile.jpg
