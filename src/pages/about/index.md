@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /about
 title: About
-introTitle: Intro
+introTitle: Founder's Message
 introText: |
   Hello,
 
