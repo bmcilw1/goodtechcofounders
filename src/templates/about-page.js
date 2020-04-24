@@ -30,11 +30,11 @@ export const AboutPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="columns">
-                <div className="column is-one-third">
+                <div className="column is-full-mobile is-half-tablet is-one-third-desktop">
                   <div className="title">{introTitle}</div>
                   <ReactMarkdown className="content" source={introText} />
                 </div>
-                <div className="column">
+                <div className="column is-full-mobile is-half-tablet is-two-thirds-desktop">
                   <PreviewCompatibleImage imageInfo={aboutImage} />
                 </div>
               </div>
