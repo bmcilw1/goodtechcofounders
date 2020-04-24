@@ -25,9 +25,9 @@ At the end of 2018 I knew I had a problem. I had just reached my fifth year of p
 
 That first pivotal day came when when I realized that my desk job gave me a powerful opportunity. I was accustomed to work to music, but who knew or cared what I was actually listening to so long as I was able to keep delivering high-quality work?
 
-Over the next 6 months, I listened to every YouTube video or podcast I could on the topics that could show me a way to realize my goals. I dug deep into investing, personal finance, world finance, and business. In those 6 months, I figured out exactly what I wanted and started planning how I could get it.
+Over the next 6 months, I listened to every YouTube video or podcast I could on the topics that might show me a way to realize my goals. I dug deep into investing, personal finance, world finance, and business. Ultimately, I figured out exactly what I wanted and started planning how I could get it.
 
-> What I _wanted most_ was to help those who felt left out of their economies learn the mindset that would show them how they could win that access for themselves.
+> What I _wanted most_ was to help those who felt left out of their economies learn the mindset that would teach them how they could earn access for themselves.
 
 ## The Jump
 
