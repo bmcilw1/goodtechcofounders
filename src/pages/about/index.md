@@ -6,9 +6,9 @@ introTitle: Intro
 introText: |
   Hello,
 
-  My name is Brian McIlwain, and I've devoted myself to helping co-founders succeed in software and in business. You may be the aspiring entrepreneur trying to see if technology could help you achieve your vision. Perhaps you're actively looking for someone who can help you build your dream. You may be technical and looking to improve yourself. Perhaps you're interested in the idea of founding a tech company- but you're not sure where to gain the non-technical skills you'll need.
+  My name is Brian McIlwain, and I've devoted myself to helping co-founders succeed in software and in business. You may be the aspiring entrepreneur trying to amass the tools or team to help you achieve your vision. You may be technical and looking to improve yourself. Perhaps you're interested in the idea of founding a startup- but you're not sure where to gain the different skills you'll need.
 
-  For all of those who can be benefited by a mindset that teaches you how to realize your vision through leveraging the technology of our day - this resource is for you. Welcome.
+  For all of those who can be benefited by a mindset that teaches you how to realize your vision of solving real problems and successfully launching your real business - this resource is for you. Welcome.
 
 aboutImage:
   image: /img/about-profile.jpg
