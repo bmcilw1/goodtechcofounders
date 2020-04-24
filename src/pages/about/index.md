@@ -49,7 +49,7 @@ After working hard on our startup for months, I realized that the only way I wou
 
 ## Our Commitment to You
 
-Our goal is to create the most useful and accessible resource for starting a successful startup today. Many of these lessons are hard-won through personal failures, but many more are built on the shoulders of giants. There are many existing valuable resources available, and that's a good thing! Cofounder's Compass is committed to being the advocate that puts the cofounder's interest first and above that of the VC's, angel investor's, tech accelerator's, startup consultant or any other interest. We hope it helps.
+Our goal is to create the most useful and accessible resource for starting a successful startup today. Many of these lessons are hard-won through personal failures, but many more are built on the shoulders of giants. There are many existing valuable resources available, and that's a good thing! Cofounder's Compass is committed to being the advocate that puts the cofounder's interest first and above that of the VCs, angel investor's, tech accelerator's, startup consultant or any other interest. We hope it helps.
 
 Welcome to the community, now let's go build something!
 
