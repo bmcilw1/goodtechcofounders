@@ -19,13 +19,13 @@ aboutImage:
 
 ## The Background
 
-At the end of 2018 I knew I had a problem. I had just reached my fifth year of professional software development. I'd worked as a Software Consultant under three consultancies and served dozens of clients across small, medium, and Fortune 500 companies. I had a great career with excellent upwards mobility in the field I wanted. I was looked to as an expert on all of my projects. In spite of everything, I wasn't happy.
+At the end of 2018 I knew I had a problem. I had just reached my fifth year of professional software development. I'd worked as a Software Consultant serving dozens of clients in small, medium, and Fortune 500 companies under three consultancies. I had a great career with upwards mobility in the field I loved. My opinion was sought after as a front-line technical expert for my projects. In spite of it all, I wasn't fulfilled.
 
-#### What's more, I realized that I wouldn't be happy helping large, well-budgeted companies solve problems dozens of consultancies could help them with.
+#### I realized that being another technical resource to large, well-budgeted companies wouldn't help me reach the audience I deeply wanted to help.
 
-That first pivotal day came when when I realized that my job gave me a powerful opportunity. I was accustomed to work to music, but who knew or cared what I was actually listening to so long as I was able to keep delivering high-quality work?
+That first pivotal day came when when I realized that my desk job gave me a powerful opportunity. I was accustomed to work to music, but who knew or cared what I was actually listening to so long as I was able to keep delivering high-quality work?
 
-Over the next 6 months, I listened to every YouTube video or podcast I could on the topics that interested me. I dug deep into investing, personal finance, world finance, and finally business. In those 6 months, I figured out exactly what I wanted and started planning how I could get it.
+Over the next 6 months, I listened to every YouTube video or podcast I could on the topics that could show me a way to realize my goals. I dug deep into investing, personal finance, world finance, and business. In those 6 months, I figured out exactly what I wanted and started planning how I could get it.
 
 > What I _wanted most_ was to help those who felt left out of their economies learn the mindset that would show them how they could win that access for themselves.
 
