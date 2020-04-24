@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "GoodTechCoFounders",
+    title: "Cofounder Compass",
     description:
-      "Helping you find good technical co-founders. Helping you become a better technical co-founder.",
+      "The guide for cofounders trying to succeed in business, finance, and life.",
   },
   plugins: [
     {
