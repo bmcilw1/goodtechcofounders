@@ -15,6 +15,8 @@ aboutImage:
   alt: Brian McIlwain
 ---
 
+---
+
 # My Story
 
 ## The Background
@@ -31,8 +33,29 @@ Over the next 6 months, I listened to every YouTube video or podcast I could on 
 
 ## The Jump
 
+Eventually, I realized that my personal values made me better suited for doing my own thing than working for someone else. I started thinking of many potential businesses that I could start. So, I put my corporate career behind me. My plan was to try to provide freelancing services with a special focus on the entrepreneurs who needed my skills the most.
+
 ## My First Solution
+
+As soon as I left corporate, for months I spent all day, every day focusing on building my personal network. I went to any event that I could where entrepreneurs were likely to be. I went to startup meetups, angel and vc investor conferences, and tech accelerator programs. What I found blew me away - practically _every_ entrepreneur was interested in attracting someone like me to help them with their startup.
+
+I also was looking into doing regular consulting work as well, but soon found that being a consultant isn't too different from being an employee. It just didn't give me the freedom that I needed to pursue the vision that was beginning to form in my head. In the end, I found two startups and joined both as potential technical cofounder. After a few months, I doubled down on my bets and picked one to see through as the technical cofounder.
 
 ## The Scalable Solution
 
-## My Commitment to You
+Early into my journey as a cofounder, I saw that the job required to much from me to be able to handle more than one at a time. I knew that the need for good cofounders was so great it was staggering to me, but I couldn't personally satisfy that demand in any meaningful way.
+
+After working hard on our startup for months, I realized that the only way I would be able to share my needed expertise with those who needed it most was by freely publishing everything I could find about how to start a successful company. I decided to do it.
+
+## Our Commitment to You
+
+Our goal is to create the most useful and accessible resource for starting a successful startup today. Many of these lessons are hard-won through personal failures, but many more are built on the shoulders of giants. There are many existing valuable resources available, and that's a good thing! Cofounder's Compass is committed to being the advocate that puts the cofounder's interest first and above that of the VC's, angel investor's, tech accelerator's, startup consultant or any other interest. We hope it helps.
+
+Welcome to the community, now let's go build something!
+
+<br/>
+<br/>
+
+Brian McIlwain \
+Cofounder's Compass \
+_Founder_
