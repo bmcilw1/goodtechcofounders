@@ -18,7 +18,7 @@ aboutImage:
 
 At the end of 2018 I knew I had a problem. I had just reached my fifth year of professional software development. I'd worked as a Software Consultant under three consultancies. I had served dozens of clients across small, medium, and Fortune 500 companies. I had a great career with excellent upwards mobility in the field I wanted. I was looked to as an expert on all of my projects. In spite of everything, I wasn't happy.
 
-> I realized that I wouldn't be happy helping large, well-budgeted companies solve problems dozens of consultancies could help them with.
+> What's more, I realized that I wouldn't be happy helping large, well-budgeted companies solve problems dozens of consultancies could help them with.
 
 ## The Jump
 
