@@ -40,7 +40,7 @@ export default class Index extends React.Component {
         <section className="hero is-primary is-bold">
           <div className="hero-body">
             <div className="container">
-              <div className="title">Contact me</div>
+              <div className="title">Contact</div>
             </div>
           </div>
         </section>
@@ -109,7 +109,7 @@ export default class Index extends React.Component {
                       name={"message"}
                       onChange={this.handleChange}
                       id={"message"}
-                      placeholder="Glad you're here! I can't promise I'll be able to help but I can promise to respond :)"
+                      placeholder="Glad you're here! We can't promise that we'll be able to help but we can promise to respond :)"
                       required={true}
                     />
                   </div>
