@@ -27,7 +27,7 @@ That first pivotal day came when when I realized that my desk job gave me a powe
 
 Over the next 6 months, I listened to every YouTube video or podcast I could on the topics that might show me a way to realize my goals. I dug deep into investing, personal finance, world finance, and business. Ultimately, I figured out exactly what I wanted and started planning how I could get it.
 
-> What I _wanted most_ was to help those who felt left out of their economy learn the mindset that would teach them how they could earn access for themselves.
+> What I _wanted most_ was to share a mindset with those who felt left out of their economy that could teach them how to earn that access for themselves.
 
 ## The Jump
 
