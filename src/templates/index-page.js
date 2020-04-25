@@ -18,20 +18,18 @@ export const IndexPageTemplate = ({ intro, articlesSection }) => (
 
     <section className="section">
       <div className="container">
-        <div className="content">
-          <div className="column is-12">
-            <h3 className="has-text-weight-semibold is-size-2">
-              {articlesSection.headerText}
-            </h3>
-            <ArticlesRoll />
-            <div className="has-text-centered">
-              <Link
-                className="button is-medium is-primary"
-                to={articlesSection.readMoreButton.path}
-              >
-                {articlesSection.readMoreButton.text}
-              </Link>
-            </div>
+        <div className="column is-12">
+          <div className="subtitle has-text-weight-semibold is-size-2">
+            {articlesSection.headerText}
+          </div>
+          <ArticlesRoll />
+          <div className="has-text-centered">
+            <Link
+              className="button is-medium is-primary"
+              to={articlesSection.readMoreButton.path}
+            >
+              {articlesSection.readMoreButton.text}
+            </Link>
           </div>
         </div>
       </div>
