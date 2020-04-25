@@ -10,10 +10,10 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-site_url: https://cofoundercompass.com
-display_url: https://cofoundercompass.com
+site_url: https://cofounderscompass.com
+display_url: https://cofounderscompass.com
 publish_mode: editorial_workflow
-logo_url: https://cofoundercompass.com/img/logo.svg
+logo_url: https://cofounderscompass.com/img/logo.svg
 
 collections:
   - name: "articles"
@@ -126,6 +126,7 @@ collections:
                   },
                 ],
             }
+
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
