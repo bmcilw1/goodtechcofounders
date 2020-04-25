@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({ intro, articlesSection }) => (
 
     <section className="section">
       <div className="container">
-        <div className="column is-12">
+        <div className="column">
           <div className="subtitle has-text-weight-semibold is-size-2">
             {articlesSection.headerText}
           </div>
