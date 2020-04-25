@@ -5,19 +5,13 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ArticlesRoll from "../components/ArticlesRoll";
 
-export const IndexPageTemplate = ({
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-}) => (
+export const IndexPageTemplate = ({ intro }) => (
   <div>
     <section className="hero is-primary is-bold is-medium">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">{title}</h1>
-          <h3 className="subtitle">{subheading}</h3>
+          <h1 className="title">{intro.title}</h1>
+          <h3 className="subtitle">{intro.subtitle}</h3>
         </div>
       </div>
     </section>
@@ -25,17 +19,9 @@ export const IndexPageTemplate = ({
     <section className="section">
       <div className="container">
         <div className="content">
-          <div className="tile">
-            <h1 className="title">{mainpitch.title}</h1>
-          </div>
-          <div className="tile">
-            <h3 className="subtitle">{mainpitch.description}</h3>
-          </div>
-          <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-          <p>{description}</p>
           <div className="column is-12">
             <h3 className="has-text-weight-semibold is-size-2">
-              Latest articles
+              Latest Articles
             </h3>
             <ArticlesRoll />
             <div className="has-text-centered">
@@ -51,11 +37,10 @@ export const IndexPageTemplate = ({
 );
 
 IndexPageTemplate.propTypes = {
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
+  intro: PropTypes.shape({
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -63,14 +48,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <IndexPageTemplate
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
+      <IndexPageTemplate intro={frontmatter.intro} />
     </Layout>
   );
 };
@@ -78,7 +56,10 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
+      intro: PropTypes.shape({
+        title: PropTypes.string,
+        subtitle: PropTypes.string,
+      }),
     }),
   }),
 };
@@ -88,22 +69,13 @@ export default IndexPage;
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      id
+      html
       frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        heading
-        subheading
-        mainpitch {
+        intro {
           title
-          description
+          subtitle
         }
-        description
       }
     }
   }
