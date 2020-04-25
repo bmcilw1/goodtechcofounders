@@ -60,6 +60,25 @@ collections:
                   { label: Subtitle, name: subtitle, widget: string },
                 ],
             }
+          - {
+              label: Articles Section,
+              name: articlesSection,
+              widget: object,
+              fields:
+                [
+                  { label: Header Text, name: headerText, widget: string },
+                  {
+                    label: Read More Button,
+                    name: readMoreButton,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Text, name: text, widget: string },
+                        { label: Path, name: path, widget: string },
+                      ],
+                  },
+                ],
+            }
 
       - file: "src/pages/about/index.md"
         label: "About"

@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ArticlesRoll from "../components/ArticlesRoll";
 
-export const IndexPageTemplate = ({ intro }) => (
+export const IndexPageTemplate = ({ intro, articlesSection }) => (
   <div>
     <section className="hero is-primary is-bold is-medium">
       <div className="hero-body">
@@ -21,12 +21,15 @@ export const IndexPageTemplate = ({ intro }) => (
         <div className="content">
           <div className="column is-12">
             <h3 className="has-text-weight-semibold is-size-2">
-              Latest Articles
+              {articlesSection.headerText}
             </h3>
             <ArticlesRoll />
             <div className="has-text-centered">
-              <Link className="button is-medium is-primary" to="/articles">
-                Read more
+              <Link
+                className="button is-medium is-primary"
+                to={articlesSection.readMoreButton.path}
+              >
+                {articlesSection.readMoreButton.text}
               </Link>
             </div>
           </div>
@@ -41,6 +44,13 @@ IndexPageTemplate.propTypes = {
     title: PropTypes.string,
     subtitle: PropTypes.string,
   }),
+  articlesSection: PropTypes.shape({
+    headerText: PropTypes.string,
+    readMoreButton: PropTypes.shape({
+      text: PropTypes.string,
+      path: PropTypes.string,
+    }),
+  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -48,7 +58,10 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <IndexPageTemplate intro={frontmatter.intro} />
+      <IndexPageTemplate
+        intro={frontmatter.intro}
+        articlesSection={frontmatter.articlesSection}
+      />
     </Layout>
   );
 };
@@ -59,6 +72,13 @@ IndexPage.propTypes = {
       intro: PropTypes.shape({
         title: PropTypes.string,
         subtitle: PropTypes.string,
+      }),
+      articlesSection: PropTypes.shape({
+        headerText: PropTypes.string,
+        readMoreButton: PropTypes.shape({
+          text: PropTypes.string,
+          path: PropTypes.string,
+        }),
       }),
     }),
   }),
@@ -75,6 +95,13 @@ export const pageQuery = graphql`
         intro {
           title
           subtitle
+        }
+        articlesSection {
+          headerText
+          readMoreButton {
+            text
+            path
+          }
         }
       }
     }
