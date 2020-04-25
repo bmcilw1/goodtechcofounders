@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import { ArticleCard } from "../components/ArticleCard";
+import { ArticleCard } from "./ArticleCard";
 
 class ArticlesRoll extends React.Component {
   render() {

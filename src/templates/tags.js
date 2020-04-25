@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
-import { ArticleCard } from "../components/ArticlesRoll";
+import { ArticleCard } from "../components/ArticleCard";
 
 class TagRoute extends React.Component {
   render() {
