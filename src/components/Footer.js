@@ -44,19 +44,8 @@ const Footer = class extends React.Component {
               <div className="columns is-size-5">
                 <a
                   className="column"
-                  title="Github"
-                  href="https://github.com/bmcilw1/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="icon">
-                    <FaGithub />
-                  </span>
-                </a>
-                <a
-                  className="column"
                   title="LinkedIn"
-                  href="https://www.linkedin.com/in/brian-mcilwain/"
+                  href="https://www.linkedin.com/company/cofounderscompass/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -96,7 +96,7 @@ const Navbar = class extends React.Component {
               <a
                 className="navbar-item is-size-5"
                 title="LinkedIn"
-                href="https://www.linkedin.com/in/brian-mcilwain/"
+                href="https://www.linkedin.com/company/cofounderscompass/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
