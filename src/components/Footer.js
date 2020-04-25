@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/logo.svg";
-import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import NavigationData from "../configs/navigation.yml";
 
