@@ -57,7 +57,7 @@ collections:
               fields:
                 [
                   { label: Title, name: title, widget: string },
-                  { label: Subtitle, name: subtitle, widget: text },
+                  { label: Subtitle, name: subtitle, widget: string },
                 ],
             }
 
