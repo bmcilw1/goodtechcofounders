@@ -2,7 +2,7 @@
 templateKey: index-page
 intro:
   title: Cofounder's Compass
-  subtitle: The missing guide for your startup.
+  subtitle: The missing guide for your startup
 articlesSection:
   headerText: Latest Articles
   readMoreButton:
