@@ -15,7 +15,7 @@ export const ArticlePageTemplate = ({
   title,
   slug,
   helmet,
-  featuredimage,
+  featuredImage,
   date,
 }) => {
   const PostContent = contentComponent || Content;
@@ -54,7 +54,7 @@ export const ArticlePageTemplate = ({
             <div className="column is-10 is-offset-1">
               <PreviewCompatibleImage
                 imageInfo={{
-                  image: featuredimage,
+                  image: featuredImage,
                   alt: `featured image for post ${title}`,
                 }}
               />
@@ -101,7 +101,7 @@ ArticlePageTemplate.propTypes = {
   title: PropTypes.string,
   slug: PropTypes.string,
   helmet: PropTypes.object,
-  featuredimage: PropTypes.object,
+  featuredImage: PropTypes.object,
   date: PropTypes.string,
 };
 
@@ -126,7 +126,7 @@ const Article = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         slug={post.fields.slug}
-        featuredimage={post.frontmatter.featuredimage}
+        featuredImage={post.frontmatter.featuredImage}
         date={post.frontmatter.date}
       />
     </Layout>
@@ -155,7 +155,7 @@ export const pageQuery = graphql`
         templateKey
         description
         tags
-        featuredimage {
+        featuredImage {
           childImageSharp {
             fluid(maxWidth: 236, quality: 100) {
               ...GatsbyImageSharpFluid

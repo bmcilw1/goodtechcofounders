@@ -10,11 +10,11 @@ export class ArticleCard extends React.Component {
     return (
       <article className="tile is-child box notification">
         <header className="columns">
-          {article.frontmatter.featuredimage ? (
+          {article.frontmatter.featuredImage ? (
             <div className="column is-one-third">
               <PreviewCompatibleImage
                 imageInfo={{
-                  image: article.frontmatter.featuredimage,
+                  image: article.frontmatter.featuredImage,
                   alt: `featured image thumbnail for post ${article.frontmatter.title}`,
                 }}
               />
@@ -58,8 +58,8 @@ ArticleCard.propTypes = {
     frontmatter: PropTypes.shape({
       title: PropTypes.string,
       date: PropTypes.string,
-      featuredpost: PropTypes.bool,
-      featuredimage: PropTypes.object,
+      featuredPost: PropTypes.bool,
+      featuredImage: PropTypes.object,
     }),
   }).isRequired,
 };
