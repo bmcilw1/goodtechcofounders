@@ -13,7 +13,7 @@ export const ArticlePageTemplate = ({
   description,
   tags,
   title,
-  slug,
+  seoSlug,
   helmet,
   featuredImage,
   date,
@@ -34,7 +34,7 @@ export const ArticlePageTemplate = ({
                 <Link to="/articles">All Articles</Link>
               </li>
               <li className="is-active">
-                <Link aria-current="page" to={"/articles/" + slug}>
+                <Link aria-current="page" to={"/articles/" + seoSlug}>
                   {title}
                 </Link>
               </li>
@@ -124,7 +124,7 @@ const Article = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        slug={post.fields.slug}
+        seoSlug={post.frontmatter.seoSlug}
         featuredImage={post.frontmatter.featuredImage}
         date={post.frontmatter.date}
       />
@@ -145,12 +145,10 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
-      fields {
-        slug
-      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        seoSlug
         templateKey
         description
         tags
