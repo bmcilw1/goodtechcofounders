@@ -48,7 +48,6 @@ export const ArticlePageTemplate = ({
         </div>
       </section>
       <section className="section">
-        {helmet || ""}
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
