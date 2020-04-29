@@ -52,12 +52,7 @@ export const ArticlePageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <PreviewCompatibleImage
-                imageInfo={{
-                  image: featuredImage,
-                  alt: `featured image for post ${title}`,
-                }}
-              />
+              <PreviewCompatibleImage imageInfo={featuredImage} />
             </div>
           </div>
         </div>

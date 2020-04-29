@@ -12,7 +12,7 @@ const ArticlePagePreview = ({ entry, widgetFor, getAsset }) => {
       tags={data.tags}
       title={data.title}
       featuredImage={{
-        image: getAsset(data.image).toString(),
+        image: getAsset(data.featuredImage).toString(),
         alt: "",
       }}
       date={data.date.toString()}
