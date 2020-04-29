@@ -77,11 +77,14 @@ export const tagPageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             featuredPost
             featuredImage {
-              childImageSharp {
-                fluid(maxWidth: 120, quality: 100) {
-                  ...GatsbyImageSharpFluid
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 120, quality: 30) {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
               }
+              alt
             }
           }
         }

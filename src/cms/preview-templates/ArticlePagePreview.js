@@ -12,8 +12,8 @@ const ArticlePagePreview = ({ entry, widgetFor, getAsset }) => {
       tags={data.tags}
       title={data.title}
       featuredImage={{
-        image: getAsset(data.featuredImage).toString(),
-        alt: "",
+        image: getAsset(data.featuredImage.image).toString(),
+        alt: data.featuredImage.alt,
       }}
       date={data.date.toString()}
     />

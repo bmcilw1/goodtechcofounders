@@ -12,12 +12,7 @@ export class ArticleCard extends React.Component {
         <header className="columns">
           {article.frontmatter.featuredImage ? (
             <div className="column is-one-third">
-              <PreviewCompatibleImage
-                imageInfo={{
-                  image: article.frontmatter.featuredImage,
-                  alt: `featured image thumbnail for post ${article.frontmatter.title}`,
-                }}
-              />
+              <PreviewCompatibleImage imageInfo={article.frontmatter.featuredImage} />
             </div>
           ) : null}
           <p className="column">
