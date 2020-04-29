@@ -22,8 +22,8 @@ export const ArticlePageTemplate = ({
 
   return (
     <>
+      {helmet || ""}
       <section className="section">
-        {helmet || ""}
         <div className="container">
           <nav className="breadcrumb" aria-label="breadcrumbs">
             <ul>
