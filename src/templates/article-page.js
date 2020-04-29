@@ -25,7 +25,7 @@ export const ArticlePageTemplate = ({
       {helmet || ""}
       <section className="section">
         <div className="container">
-          <nav className="breadcrumb" aria-label="breadcrumbs">
+          <div className="breadcrumb" aria-label="breadcrumbs">
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -39,7 +39,7 @@ export const ArticlePageTemplate = ({
                 </Link>
               </li>
             </ul>
-          </nav>
+          </div>
 
           <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
             {title}
