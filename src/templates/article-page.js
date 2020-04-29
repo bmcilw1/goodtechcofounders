@@ -34,7 +34,7 @@ export const ArticlePageTemplate = ({
                 <Link to="/articles">All Articles</Link>
               </li>
               <li className="is-active">
-                <Link aria-current="page" to={slug}>
+                <Link aria-current="page" to={slug || ""}>
                   {title}
                 </Link>
               </li>
