@@ -66,7 +66,7 @@ export const ArticlePageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <p>{description}</p>
+                <p className="is-italic">{description}</p>
                 <PostContent content={content} />
               </div>
               {tags && tags.length ? (
