@@ -4,14 +4,17 @@ import { ArticlePageTemplate } from "../../templates/article-page";
 
 const ArticlePagePreview = ({ entry, widgetFor, getAsset }) => {
   const data = entry.getIn(["data"]).toJS();
-  
+
   return (
     <ArticlePageTemplate
       content={widgetFor("body")}
       description={data.description}
       tags={data.tags}
       title={data.title}
-      featuredImage={getAsset(data.image).toString()}
+      featuredImage={{
+        image: getAsset(data.image).toString(),
+        alt: "",
+      }}
       date={data.date.toString()}
     />
   );
