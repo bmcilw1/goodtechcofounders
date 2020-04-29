@@ -22,7 +22,7 @@ collections:
     folder: "src/pages/articles"
     create: true
     identifier_field: seoSlug
-    preview_path: "articles/{{seoSlug}}"
+    preview_path: "/articles/{{seoSlug}}"
     fields:
       - {
           label: "Template Key",
