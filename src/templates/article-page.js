@@ -44,6 +44,7 @@ export const ArticlePageTemplate = ({
           <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
             {title}
           </h1>
+
           <h2 className="subtitle">{date}</h2>
         </div>
       </section>
