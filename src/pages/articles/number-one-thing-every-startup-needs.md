@@ -30,7 +30,7 @@ Trust is the ultimate modern asset. In 2020, it is the one thing your startup ca
 
 ![Bird landing in open hand](/img/trust_pic.jpg "Trust")
 
-*Photo by [Javardh](https://unsplash.com/@_javardh_001?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/feeding-wild-animals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+<span class="is-block has-text-centered">*Photo by [Javardh](https://unsplash.com/@_javardh_001?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/feeding-wild-animals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*</span>
 
 <br />
 
@@ -50,15 +50,14 @@ Now, how's that for a market penetration goal?
 
 ![Brands in Times Square in New York](/img/ads_overwhelm.jpg "Brand Overwhelm")
 
-*Photo by [Joshua Earle](https://unsplash.com/@joshuaearle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ads?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+<span class="is-block has-text-centered">*Photo by [Joshua Earle](https://unsplash.com/@joshuaearle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ads?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*</span>
 
 <br />
 
 So amongst that boisterous babble, the brazen bedlam that is become modern branding—
 
-<br />
 
-**How do get your potential users to notice yours?**
+### How do get your potential users to notice yours?
 
 <br />
 
@@ -76,7 +75,7 @@ Becoming a domain authority in the eyes of your audience requires more of you th
 
 ![Man in suit doing up tie](/img/domain_autority.jpg "Domain Authority")
 
-*Photo by [Ben Rosett](https://unsplash.com/@spiritvisionstudios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/professional?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+<span class="is-block has-text-centered">*Photo by [Ben Rosett](https://unsplash.com/@spiritvisionstudios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/professional?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*</span>
 
 <br />
 
@@ -126,7 +125,7 @@ To attract a more passive audience presence, you need to become active on the ri
 
 ![Social media icons](/img/social_media.jpg "Social Media")
 
-*Photo by [NordWood Themes](https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/social-media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+<span class="is-block has-text-centered">*Photo by [NordWood Themes](https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/social-media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*</span>
 
 <br />
 
