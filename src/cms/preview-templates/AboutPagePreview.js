@@ -12,8 +12,8 @@ const AboutPagePreview = ({ entry, widgetFor, getAsset }) => {
       introTitle={data.introTitle}
       introText={data.introText}
       aboutImage={{
-        image: getAsset(data.aboutImage.image).toString(),
-        alt: data.aboutImage.alt,
+        image: getAsset(data.aboutImage?.image).toString(),
+        alt: data.aboutImage?.alt,
       }}
     />
   );
