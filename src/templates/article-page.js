@@ -54,10 +54,11 @@ export const ArticlePageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <PreviewCompatibleImage imageInfo={featuredImage} />
-              {featuredImage.attribution ? (
+              {featuredImage?.attribution ? (
                 <ReactMarkdown
                   className="is-italic content"
-                  source={featuredImage.attribution}
+                  source={featuredImage?.attribution}
+                  escapeHtml={false}
                 />
               ) : (
                 ""
