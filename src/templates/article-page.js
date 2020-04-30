@@ -73,7 +73,7 @@ export const ArticlePageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <p className="is-italic">{description}</p>
-                <PostContent content={content} />
+                <PostContent className="post" content={content} />
               </div>
               {tags && tags.length ? (
                 <div className="container article-tags">
@@ -163,7 +163,7 @@ export const pageQuery = graphql`
         featuredImage {
           image {
             childImageSharp {
-              fluid(maxWidth: 236, quality: 100) {
+              fluid(maxWidth: 512, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
