@@ -7,6 +7,7 @@ featuredPost: false
 featuredImage:
   image: /img/chemex.jpg
   alt: chemex
+  attribution: _Image courtesy of [Google](https://google.com)_
 description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
 tags:
   - brewing

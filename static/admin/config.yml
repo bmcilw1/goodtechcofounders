@@ -42,6 +42,12 @@ collections:
             [
               { label: Image, name: image, widget: image },
               { label: Alt, name: alt, widget: string },
+              {
+                label: Attribution,
+                name: attribution,
+                widget: string,
+                required: false,
+              },
             ],
         }
       - { label: "Featured Post", name: "featuredPost", widget: "boolean" }

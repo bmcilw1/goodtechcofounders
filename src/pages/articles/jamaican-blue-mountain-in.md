@@ -7,6 +7,7 @@ featuredPost: true
 featuredImage:
   image: /img/chemex.jpg
   alt: chemex
+  attribution: Image courtesy of [Google](https://google.com)
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.

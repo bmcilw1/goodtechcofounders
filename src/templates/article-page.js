@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
+import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
@@ -53,6 +54,14 @@ export const ArticlePageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <PreviewCompatibleImage imageInfo={featuredImage} />
+              {featuredImage.attribution ? (
+                <ReactMarkdown
+                  className="is-italic content"
+                  source={featuredImage.attribution}
+                />
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>
@@ -159,6 +168,7 @@ export const pageQuery = graphql`
             }
           }
           alt
+          attribution
         }
       }
     }
