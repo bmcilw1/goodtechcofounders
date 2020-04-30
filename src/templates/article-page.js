@@ -56,7 +56,7 @@ export const ArticlePageTemplate = ({
               <PreviewCompatibleImage imageInfo={featuredImage} />
               {featuredImage?.attribution ? (
                 <ReactMarkdown
-                  className="is-italic content"
+                  className="is-italic content is-block has-text-centered"
                   source={featuredImage?.attribution}
                   escapeHtml={false}
                 />
