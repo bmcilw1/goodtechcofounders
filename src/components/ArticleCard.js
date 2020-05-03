@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import { HTMLContent } from "../components/Content";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 export class ArticleCard extends React.Component {
@@ -12,7 +13,9 @@ export class ArticleCard extends React.Component {
         <header className="columns">
           {article.frontmatter.featuredImage ? (
             <div className="column is-one-third">
-              <PreviewCompatibleImage imageInfo={article.frontmatter.featuredImage} />
+              <PreviewCompatibleImage
+                imageInfo={article.frontmatter.featuredImage}
+              />
             </div>
           ) : null}
           <p className="column">
@@ -29,7 +32,7 @@ export class ArticleCard extends React.Component {
           </p>
         </header>
         <p>
-          {article.excerpt}
+          <HTMLContent className="post content" content={article.excerpt} />
           <br />
           <br />
           <Link
