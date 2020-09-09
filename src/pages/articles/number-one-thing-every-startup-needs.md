@@ -18,11 +18,11 @@ tags:
 ---
 ## The real need
 
-Most startups think that the most important thing they need to succeed is a great product idea in an underserved market. Or a killer team. Or (my favorite) that check from an angel or VC investor. Or just an oversized helping of plain luck.
+Most startups think that the most important thing they need to succeed is a great product idea in an underserved market. Or a killer team. Or that first check from an angel or VC investor. Or just an oversized helping of plain luck.
 
-The most important thing for a startup today is even simpler.
+I don't buy it.
 
-So what is it?
+So - what do you need?
 
 > *The number one need for new startups today is to gain the trust of their intended audience.*
 
@@ -36,7 +36,7 @@ Trust is the ultimate modern asset. In 2020, it is the one thing your startup ca
 
 Gone are the days of "*build it and they will come*," at least when starting a business. 
 
-The original way of establishing brand trust only by providing great products and services is becoming increasingly difficult. Today, that's frequently just no longer enough to scale.
+The original way of establishing brand trust only by providing great products and services and trusting the rest to reputation is becoming increasingly difficult. Today, that's usually not enough.
 
 Now, almost anyone can purchase views for their brand through low-cost, internet-based ad campaigns.
 
@@ -82,7 +82,7 @@ With the abundance of digital content, consumer behavior changed. We purchased l
 
 Consumers are doing more research than ever before almost any purchase decision. Companies that don't show up are losing their business to those that do.
 
-What are customers looking for? That's easy!
+What are customers researching these days? Just about everything!
 
 Pretend something just broke in your house that you don't already know how to fix. What are you most likely to do next? If you're like the average person, it will be one of the following:
 
@@ -95,7 +95,7 @@ You then look for something helpful, and usually, you find it. If the content yo
 
 <br />
 
-If the service recommendation post recommends a local company, you're likely to give them a call. If the how-to post recommends a certain tool, your garage now sees a need to expand by one more tool.
+If the post recommends a local company, you're likely to give them a call. If the how-to post recommends a certain tool, your garage now sees a need to expand by one more tool.
 
 Whoever created the helpful article or video has earned a little of your trust.
 
