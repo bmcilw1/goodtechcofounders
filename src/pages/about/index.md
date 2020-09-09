@@ -35,7 +35,7 @@ Over the next 6 months, I listened to every YouTube video or podcast I could on 
 
 Eventually, I realized that my personal values made me better suited for more independent work than I was doing. I started thinking of many potential business ideas. Finally, I put my corporate career behind me. My plan was to try to provide freelancing services with a special focus on the entrepreneurs who needed my skills the most.
 
-## My First Solution
+## My First Rodeo
 
 As soon as I left corporate, for months I spent all day, every day focusing on building my personal network. I went to any event that I could where entrepreneurs were likely to be. I went to startup meetups, angel and VC investor conferences, and tech accelerator programs. What I found blew me away - practically *every* entrepreneur was interested in attracting someone like me to help them with their startup!
 
