@@ -37,13 +37,13 @@ Eventually, I realized that my personal values made me better suited for more in
 
 ## My First Rodeo
 
-As soon as I left corporate, for months I spent all day, every day focusing on building my personal network. I went to any event that I could where entrepreneurs were likely to be. I went to startup meetups, angel and VC investor conferences, and tech accelerator programs. What I found blew me away - practically *every* entrepreneur was interested in attracting someone like me to help them with their startup!
+As soon as I left corporate, I spent all day, every day focusing on building my personal network for months. I went to any event that I could where entrepreneurs were likely to be. I went to startup meetups, angel and VC investor conferences, and tech accelerator programs. What I found blew me away - practically *every* entrepreneur was interested in attracting someone like me to help them with their startup!
 
-In the end, I found two startups and joined both as a potential technical cofounder. After a few months, I doubled down on my bets and strapped myself in for my first experience as a technical co-founder.
+In the end, I found two startups and decided to try both as a potential technical cofounder. After a few months, I doubled down on my bets, picked one, and strapped myself in for my first experience as a technical co-founder. In the process, I learned, made a lot of mistakes, and over time completely changed my opinions on what really matters to launch a successful new business.
 
 ## The Scalable Solution
 
-Early into my journey as a co-founder, I saw that the job required too much from me to be able to handle more than one at a time. I knew that the need for good co-founders was so great it was staggering to me, but I couldn't personally satisfy that demand in any meaningful way.
+Early into my journey as a co-founder, I learned that it's difficult to handle more than one project at a time. I knew that the need for good co-founders was so great it was staggering to me, but I couldn't personally satisfy that demand in any meaningful way.
 
 After working hard on our startup for months, I realized that the only way I would be able to share my needed expertise with those who needed it most was by freely publishing everything I could find about how to start a successful company. I decided to do it.
 
