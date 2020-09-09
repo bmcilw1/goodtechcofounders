@@ -23,7 +23,7 @@ aboutImage:
 
 At the end of 2018, I knew I had a problem. I had just reached my fifth year of professional software development. I'd worked as a Software Consultant serving dozens of clients in small, medium, and Fortune 500 companies under three consultancies. I had a great career with upwards mobility in the field I loved. My opinion was being sought after as a front-line technical expert on my projects. In spite of it all, I wasn't fulfilled.
 
-#### I realized that being another technical resource to large, well-budgeted companies wasn't allowing me to help the people who most needed my work.
+#### I realized that being another technical resource to large, well-budgeted companies wasn't allowing me to help those who most needed my work.
 
 That first pivotal day came when I realized that my desk job gave me a powerful opportunity. I was accustomed to working to music, but who knew or cared what I was actually listening to so long as I was able to keep delivering high-quality work?
 
