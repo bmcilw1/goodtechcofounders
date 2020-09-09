@@ -130,8 +130,6 @@ To attract a more passive audience presence, you need to become active on the ri
 
 ## The benefits of domain authority
 
-Many established businesses have not yet jumped on this bandwaggon, and are slowly losing their customers because of it.
-
 Most new startups fail to focus on this and struggle because of it. Many that try are so focused on pushing their product that their potential customers are left questioning whether the company truly has their best interests at heart.
 
 Therefore, the startup today that focuses on publishing useful content regularly for their target audience can most easily gain perhaps the greatest competitive advantage they could ask for - real trust.
