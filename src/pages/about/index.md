@@ -45,7 +45,7 @@ In the end, I found two startups and decided to try both as a potential technica
 
 Early into my journey as a co-founder, I learned that it's an all-consuming job. I saw that the lack of good technical expertise earlier in the development process was risking sinking the ship while still in the harbor for many fledgling enterprises. But, I couldn't personally take the wheel for so many ships.  
 
-I realized that the only way I would be able to share my needed expertise with those who needed it most was by freely publishing everything I learned about software and business. I decided to go for it!
+I realized that the only way I would be able to share my needed expertise with those who needed it most was by putting the most important lessons I learned about software and business out there where they could be found. I decided to go for it!
 
 ## Now What?
 
