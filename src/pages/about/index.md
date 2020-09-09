@@ -33,17 +33,17 @@ Over the next 6 months, I listened to every YouTube video or podcast I could on 
 
 ## The Jump
 
-Eventually, I realized that my personal values made me better suited for more independent work than I was doing. I started thinking of many potential businesses that I could start. So, I put my corporate career behind me. My plan was to try to provide freelancing services with a special focus on the entrepreneurs who needed my skills the most.
+Eventually, I realized that my personal values made me better suited for more independent work than I was doing. I started thinking of many potential business ideas. Finally, I put my corporate career behind me. My plan was to try to provide freelancing services with a special focus on the entrepreneurs who needed my skills the most.
 
 ## My First Solution
 
 As soon as I left corporate, for months I spent all day, every day focusing on building my personal network. I went to any event that I could where entrepreneurs were likely to be. I went to startup meetups, angel and VC investor conferences, and tech accelerator programs. What I found blew me away - practically *every* entrepreneur was interested in attracting someone like me to help them with their startup!
 
-In the end, I found two startups and joined both as a potential technical cofounder. After a few months, I doubled down on my bets and picked one to see through as the technical cofounder.
+In the end, I found two startups and joined both as a potential technical cofounder. After a few months, I doubled down on my bets and strapped myself in for my first experience as a technical co-founder.
 
 ## The Scalable Solution
 
-Early into my journey as a co-founder, I saw that the job required too much from me to be able to handle more than one at a time. I knew that the need for good cofounders was so great it was staggering to me, but I couldn't personally satisfy that demand in any meaningful way.
+Early into my journey as a co-founder, I saw that the job required too much from me to be able to handle more than one at a time. I knew that the need for good co-founders was so great it was staggering to me, but I couldn't personally satisfy that demand in any meaningful way.
 
 After working hard on our startup for months, I realized that the only way I would be able to share my needed expertise with those who needed it most was by freely publishing everything I could find about how to start a successful company. I decided to do it.
 
