@@ -18,11 +18,11 @@ tags:
 ---
 ## The real need
 
-Most startups think that the most important thing they need to succeed is a great product idea in an underserved market. Or a killer team. Or (my favorite) that check from an angel or VC investor. Or just an oversized helping of plain luck.
+Most startups think that the most important thing they need to succeed is a great product idea in an underserved market. Or a killer team. Or that first check from an angel or VC investor. Or just an oversized helping of plain luck.
 
-The most important thing for a startup today is even simpler.
+I don't buy it.
 
-So what is it?
+So - what do you need?
 
 > *The number one need for new startups today is to gain the trust of their intended audience.*
 
@@ -36,17 +36,17 @@ Trust is the ultimate modern asset. In 2020, it is the one thing your startup ca
 
 Gone are the days of "*build it and they will come*," at least when starting a business. 
 
-The original way of establishing brand trust only by providing great products and services is becoming increasingly difficult. Today, that's frequently just no longer enough to scale.
+The original way of establishing brand trust only by providing great products and services and trusting the rest to reputation is becoming increasingly difficult. Today, that's usually not enough.
 
 Now, almost anyone can purchase views for their brand through low-cost, internet-based ad campaigns.
 
-We are all now flooded with a constant stream of brands in nearly every waking moment of our lives.
+We are all now flooded with a constant stream of brands in nearly every moment of our lives.
 
-To show you what I mean, let's try a quick experiment. Try to remember a couple of your recent dreams. What are some of the objects you can remember from them?
+To show you what I mean, let's try a quick experiment. Try to remember a recent dream of yours. Can you remember any specific objects you saw?
 
-The odds are high that at least some of those objects had a brand you can recognize. Can you remember any specific brands? If you can, some companies have successfully posted their ads into your subconsciousness.
+The odds are high that at least some of those objects were from a brand you know. If you can think of one example, that company has successfully found ad space - in your subconsciousness.
 
-Now, how's that for a market penetration goal?
+How's that for market penetration?
 
 ![Brands in Times Square in New York](/img/ads_overwhelm.jpg "Brand Overwhelm")
 
@@ -56,8 +56,7 @@ Now, how's that for a market penetration goal?
 
 So amongst that boisterous babble, the brazen bedlam that is become modern branding—
 
-
-### How do get your potential users to notice yours?
+### How do get your potential users to notice?
 
 <br />
 
@@ -83,7 +82,7 @@ With the abundance of digital content, consumer behavior changed. We purchased l
 
 Consumers are doing more research than ever before almost any purchase decision. Companies that don't show up are losing their business to those that do.
 
-What are customers looking for? That's easy!
+What are customers researching these days? Just about everything!
 
 Pretend something just broke in your house that you don't already know how to fix. What are you most likely to do next? If you're like the average person, it will be one of the following:
 
@@ -96,7 +95,7 @@ You then look for something helpful, and usually, you find it. If the content yo
 
 <br />
 
-If the service recommendation post recommends a local company, you're likely to give them a call. If the how-to post recommends a certain tool, your garage now sees a need to expand by one more tool.
+If the post recommends a local company, you're likely to give them a call. If the how-to post recommends a certain tool, your garage now sees a need to expand by one more tool.
 
 Whoever created the helpful article or video has earned a little of your trust.
 
@@ -130,8 +129,6 @@ To attract a more passive audience presence, you need to become active on the ri
 <br />
 
 ## The benefits of domain authority
-
-Many established businesses have not yet jumped on this bandwaggon, and are slowly losing their customers because of it.
 
 Most new startups fail to focus on this and struggle because of it. Many that try are so focused on pushing their product that their potential customers are left questioning whether the company truly has their best interests at heart.
 
