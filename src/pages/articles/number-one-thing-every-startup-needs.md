@@ -40,13 +40,13 @@ The original way of establishing brand trust only by providing great products an
 
 Now, almost anyone can purchase views for their brand through low-cost, internet-based ad campaigns.
 
-We are all now flooded with a constant stream of brands in nearly every waking moment of our lives.
+We are all now flooded with a constant stream of brands in nearly every moment of our lives.
 
-To show you what I mean, let's try a quick experiment. Try to remember a couple of your recent dreams. What are some of the objects you can remember from them?
+To show you what I mean, let's try a quick experiment. Try to remember a recent dream of yours. Can you remember any specific objects you saw?
 
-The odds are high that at least some of those objects had a brand you can recognize. Can you remember any specific brands? If you can, some companies have successfully posted their ads into your subconsciousness.
+The odds are high that at least some of those objects were from a brand you know. If you can think of one example, that company has successfully found ad space - in your subconsciousness.
 
-Now, how's that for a market penetration goal?
+How's that for market penetration?
 
 ![Brands in Times Square in New York](/img/ads_overwhelm.jpg "Brand Overwhelm")
 
@@ -56,8 +56,7 @@ Now, how's that for a market penetration goal?
 
 So amongst that boisterous babble, the brazen bedlam that is become modern branding—
 
-
-### How do get your potential users to notice yours?
+### How do get your potential users to notice?
 
 <br />
 
