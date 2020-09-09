@@ -41,7 +41,7 @@ As soon as I left corporate, I spent all day, every day focusing on building my 
 
 In the end, I found two startups and decided to try both as a potential technical cofounder. After a few months, I picked one and strapped myself in for my first experience as a technical co-founder. In the process, I learned, made a lot of mistakes, and over time completely changed my opinions on what really matters to launch a successful new business.
 
-## The Scalable Solution
+## Scale
 
 Early into my journey as a co-founder, I learned that it's an all-consuming job. I saw that the lack of good technical expertise earlier in the development process was risking sinking the ship while still in the harbor for many fledgling enterprises. But, I couldn't personally take the wheel for so many ships.  
 
@@ -49,9 +49,9 @@ I realized that the only way I would be able to share my needed expertise with t
 
 ## Now What?
 
-My goal is to create a resource for building good software and business. Many of these lessons are hard-won through personal failures, but many more are built on the shoulders of giants. There are many existing valuable resources available, and that's a good thing! Here you'll find what I've found the most useful for my own projects and ventures. I hope it helps!
+My goal is to create a resource for building better software and more successful new businesses. Many of these lessons are hard-won through personal failures, and many are built on the shoulders of giants. Here you'll find what I've found the most useful for my own projects and ventures. I hope it helps!
 
-Welcome to the community, now let's go build something!
+Welcome to the community. I hope you build something!
 
 <br/>
 <br/>
