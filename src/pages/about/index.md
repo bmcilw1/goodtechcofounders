@@ -51,7 +51,7 @@ I realized that the only way I would be able to share my needed expertise with t
 
 My goal is to create a resource for building better software and more successful new businesses. Many of these lessons are hard-won through personal failures, and many are built on the shoulders of giants. Here you'll find what I've found the most useful for my own projects and ventures. I hope it helps!
 
-Welcome to the community. I hope you build something!
+Welcome to the community. Keep building!
 
 <br/>
 <br/>
