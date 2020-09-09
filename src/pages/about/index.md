@@ -10,7 +10,7 @@ introText: >-
   My name is Brian McIlwain, and I've devoted myself to helping new ideas succeed in software and in business. You may be the aspiring entrepreneur trying to amass the tools or team to help you achieve your vision. You may be technical and looking to improve yourself. Perhaps you're just looking for ideas on how to get your vision off the ground.
 
 
-  For all of those who can be benefited from the thoughts and experience of one techie - this resource is for you. Welcome!
+  For all of those who can be benefited from the thoughts and experiences of one techie - this resource is for you. Welcome!
 aboutImage:
   image: /img/about-profile.jpg
   alt: Brian McIlwain
