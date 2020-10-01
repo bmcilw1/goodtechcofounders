@@ -1,6 +1,6 @@
 ---
 templateKey: article-page
-seoSlug: How to Outsource your Software Project Successfully
+seoSlug: how to outsource your software project successfully
 title: How to Outsource your Software Project Successfully
 date: 2020-10-01T01:34:33.757Z
 description: I have gotten too many SOS calls from entrepreneurs up the software
